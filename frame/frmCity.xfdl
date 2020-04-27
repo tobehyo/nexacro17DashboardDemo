@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="frmCity" width="59" height="43" titletext="New Form" stepshowtype="action" stepitemsize="0" oninit="frmCity_oninit">
+    <Layouts>
+      <Layout height="43" mobileorientation="landscape" width="59" stepcount="16">
+        <Static id="stCity01" taborder="0" text="Seoul" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB"/>
+        <Static id="stCity02" taborder="0" text="Daejeon" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="1"/>
+        <Static id="stCity03" taborder="0" text="Dae-gu" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="2"/>
+        <Static id="stCity04" taborder="0" text="Busan" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="3"/>
+        <Static id="stCity05" taborder="0" text="Hanam" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="4"/>
+        <Static id="stCity06" taborder="0" text="Seong-Nam" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="5"/>
+        <Static id="stCity07" taborder="0" text="Copper" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="6"/>
+        <Static id="stCity08" taborder="0" text="Namyangju" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="7"/>
+        <Static id="stCity09" taborder="0" text="Ulsan" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="8"/>
+        <Static id="stCity10" taborder="0" text="Gwangju" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="9"/>
+        <Static id="stCity11" taborder="0" text="Jeju Island" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="10"/>
+        <Static id="stCity12" taborder="0" text="Ulleungdo" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="11"/>
+        <Static id="stCity13" taborder="0" text="Won-ju" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="12"/>
+        <Static id="stCity14" taborder="0" text="Sejong" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="13"/>
+        <Static id="stCity15" taborder="0" text="Gangneung" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="14"/>
+        <Static id="stCity16" taborder="0" text="Pohang" left="0" top="0" width="59" height="43" cssclass="sta_WF_script16CB" positionstep="15"/>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[
+this.frmCity_oninit = function(obj:nexacro.Form,e:nexacro.EventInfo)
+{
+	var cityName = ["Seoul", "Busan", "Deagu", "Dae\njeon", "Gwang\nju", "In\ncheon", "Se\njong", "Ulsan", "Jeju", "An\nyang", "Gimpo", "Po\nhang", "Seong\nnam","Sok\ncho", "Suwon", "Chung\nju"];
+	
+	for( var i=0; i<cityName.length; i++) {
+		if(i<9) {
+			this["stCity0"+(i+1)].set_text(cityName[i].toUpperCase());
+		} else {
+			this["stCity"+(i+1)].set_text(cityName[i].toUpperCase());
+		}
+		
+	}	
+	
+};
+]]></Script>
+  </Form>
+</FDL>

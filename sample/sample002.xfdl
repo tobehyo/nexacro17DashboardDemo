@@ -1,0 +1,1098 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="sample002" width="1280" height="720" titletext="New Form" ontimer="sample002_ontimer">
+    <Layouts>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <Div id="divGrid" taborder="0" left="0" top="0" width="650" height="480">
+          <Layouts>
+            <Layout>
+              <Div id="divRow0" taborder="0" left="0" top="0" width="650" height="120">
+                <Layouts>
+                  <Layout>
+                    <Static id="stDoctorImg" taborder="0" left="22" top="24" width="64" height="64" cssclass="sta_cm_doc03"/>
+                    <Static id="stDoctorName" taborder="1" text="고석률 교수" left="91" top="19" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stClass" taborder="2" text="가정의학과" left="91" top="62" width="157" height="39" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stRoom" taborder="3" text="3층 302호" left="241" top="19" width="137" height="49" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stRoomType" taborder="4" text="외래진료실" left="241" top="62" width="137" height="39" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stType01" taborder="5" left="413" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+                    <Static id="stType02" taborder="6" left="502" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                    <Static id="stType03" taborder="7" left="592" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="divRow1" taborder="1" left="0" top="120" width="650" height="120">
+                <Layouts>
+                  <Layout>
+                    <Static id="stDoctorImg" taborder="0" left="22" top="24" width="64" height="64" cssclass="sta_cm_doc03"/>
+                    <Static id="stDoctorName" taborder="1" text="고석률 교수" left="91" top="19" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stClass" taborder="2" text="가정의학과" left="91" top="62" width="157" height="39" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stRoom" taborder="3" text="3층 302호" left="241" top="19" width="137" height="49" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stRoomType" taborder="4" text="외래진료실" left="241" top="62" width="137" height="39" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stType01" taborder="5" left="413" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+                    <Static id="stType02" taborder="6" left="502" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                    <Static id="stType03" taborder="7" left="592" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="divRow2" taborder="2" left="0" top="240" width="650" height="120">
+                <Layouts>
+                  <Layout>
+                    <Static id="stDoctorImg" taborder="0" left="22" top="24" width="64" height="64" cssclass="sta_cm_doc03"/>
+                    <Static id="stDoctorName" taborder="1" text="고석률 교수" left="91" top="19" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stClass" taborder="2" text="가정의학과" left="91" top="62" width="157" height="39" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stRoom" taborder="3" text="3층 302호" left="241" top="19" width="137" height="49" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stRoomType" taborder="4" text="외래진료실" left="241" top="62" width="137" height="39" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stType01" taborder="5" left="413" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+                    <Static id="stType02" taborder="6" left="502" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                    <Static id="stType03" taborder="7" left="592" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="divRow3" taborder="3" left="0" top="360" width="650" height="120">
+                <Layouts>
+                  <Layout>
+                    <Static id="stDoctorImg" taborder="0" left="22" top="24" width="64" height="64" cssclass="sta_cm_doc03"/>
+                    <Static id="stDoctorName" taborder="1" text="고석률 교수" left="91" top="19" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stClass" taborder="2" text="가정의학과" left="91" top="62" width="157" height="39" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stRoom" taborder="3" text="3층 302호" left="241" top="19" width="137" height="49" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stRoomType" taborder="4" text="외래진료실" left="241" top="62" width="137" height="39" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stType01" taborder="5" left="413" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+                    <Static id="stType02" taborder="6" left="502" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                    <Static id="stType03" taborder="7" left="592" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Button id="Button00" taborder="1" text="Button00" left="668" top="16" width="120" height="50" onclick="Button00_onclick"/>
+      </Layout>
+    </Layouts>
+    <Objects>
+      <Dataset id="dsDoctorList">
+        <ColumnInfo>
+          <Column id="Name" type="STRING" size="256"/>
+          <Column id="ClassName" type="STRING" size="256"/>
+          <Column id="Image" type="STRING" size="256"/>
+          <Column id="Room" type="STRING" size="256"/>
+          <Column id="RoomType" type="STRING" size="256"/>
+          <Column id="Type01" type="STRING" size="256"/>
+          <Column id="Type02" type="STRING" size="256"/>
+          <Column id="Type03" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="Name">고석률</Col>
+            <Col id="ClassName">가정의학과</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1층 101호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="ClassName">가정의학과</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">투비학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김차영</Col>
+            <Col id="ClassName">가정의학과</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">1층 102호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="ClassName">건강의학과</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1층 103호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">나성진</Col>
+            <Col id="ClassName">내분비과</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="ClassName">내분비과</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1층 104호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김대원</Col>
+            <Col id="ClassName">내분비과</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">일본세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="ClassName">내분비과</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1층 105호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">하성원</Col>
+            <Col id="ClassName">내과</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1층 106호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">이윤선</Col>
+            <Col id="ClassName">내과</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">이창현</Col>
+            <Col id="ClassName">내과</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1층 107호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="ClassName">내과</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">한상신</Col>
+            <Col id="ClassName">대장항문외과</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">러시아세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">고석률</Col>
+            <Col id="ClassName">대장항문외과</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1층 108호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="ClassName">대장항문외과</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥스학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김차영</Col>
+            <Col id="ClassName">대장항문외과</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1층 109호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="ClassName">류마티스내과</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">한정훈</Col>
+            <Col id="ClassName">류마티스내과</Col>
+            <Col id="Image">sta_cm_doc05</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1층 110호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">이윤선</Col>
+            <Col id="ClassName">류마티스내과</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">투비학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">정원식</Col>
+            <Col id="ClassName">류마티스내과</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 201호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="ClassName">마취통증의학과</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">일본세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">나성진</Col>
+            <Col id="ClassName">마취통증의학과</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="ClassName">마취통증의학과</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 202호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김대원</Col>
+            <Col id="ClassName">마취통증의학과</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="ClassName">방사선종양학과</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 203호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">하성원</Col>
+            <Col id="ClassName">방사선종양학과</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 204호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">이윤선</Col>
+            <Col id="ClassName">방사선종양학과</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">러시아세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">이창현</Col>
+            <Col id="ClassName">방사선종양학과</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="ClassName">병리과</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 205호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">한상신</Col>
+            <Col id="ClassName">병리과</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">투비학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">고석률</Col>
+            <Col id="ClassName">병리과</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 206호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="ClassName">병리과</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 207호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김차영</Col>
+            <Col id="ClassName">비뇨기과</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">일본세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="ClassName">비뇨기과</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 208호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">한정훈</Col>
+            <Col id="ClassName">비뇨기과</Col>
+            <Col id="Image">sta_cm_doc05</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 209호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">이윤선</Col>
+            <Col id="ClassName">비뇨기과</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">정원식</Col>
+            <Col id="ClassName">산부인과</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">러시아세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="ClassName">산부인과</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2층 210호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">나성진</Col>
+            <Col id="ClassName">산부인과</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="ClassName">산부인과</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 301호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김대원</Col>
+            <Col id="ClassName">성형외과</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="ClassName">성형외과</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 302호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">하성원</Col>
+            <Col id="ClassName">성형외과</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">이윤선</Col>
+            <Col id="ClassName">성형외과</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 303호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">이창현</Col>
+            <Col id="ClassName">소화기내과</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 304호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="ClassName">소화기내과</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 305호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">한상신</Col>
+            <Col id="ClassName">소화기내과</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">일본세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">고석률</Col>
+            <Col id="ClassName">소화기내과</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">투비학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="ClassName">신경과</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">러시아세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김차영</Col>
+            <Col id="ClassName">신경과</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 306호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="ClassName">신경과</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 307호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">한정훈</Col>
+            <Col id="ClassName">신경과</Col>
+            <Col id="Image">sta_cm_doc05</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 308호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">이윤선</Col>
+            <Col id="ClassName">심장내과</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 309호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">정원식</Col>
+            <Col id="ClassName">심장내과</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="ClassName">심장내과</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3층 310호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">나성진</Col>
+            <Col id="ClassName">심장내과</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="ClassName">안과</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4층 401호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김대원</Col>
+            <Col id="ClassName">안과</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4층 402호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="ClassName">안과</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">투비학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">하성원</Col>
+            <Col id="ClassName">안과</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">이윤선</Col>
+            <Col id="ClassName">응급의학과</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">이창현</Col>
+            <Col id="ClassName">응급의학과</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4층 403호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="ClassName">응급의학과</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4층 404호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">한상신</Col>
+            <Col id="ClassName">응급의학과</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">고석률</Col>
+            <Col id="ClassName">이비인후과</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4층 405호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="ClassName">이비인후과</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">러시아세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김차영</Col>
+            <Col id="ClassName">이비인후과</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="ClassName">이비인후과</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4층 406호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">고석률</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Room">4층 407호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">외과</Col>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">외과</Col>
+            <Col id="Room">러시아세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김차영</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Room">4층 408호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">외과</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Room">4층 409호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">외과</Col>
+          </Row>
+          <Row>
+            <Col id="Name">정원식</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">정신건강의학과</Col>
+            <Col id="Room">일본세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">정신건강의학과</Col>
+            <Col id="Room">4층 410호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">나성진</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="ClassName">정신건강의학과</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">정신건강의학과</Col>
+            <Col id="Room">5층 501호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김대원</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">정형외과</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">정형외과</Col>
+            <Col id="Room">5층 502호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">하성원</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">정형외과</Col>
+            <Col id="Room">5층 503호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">이윤선</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">정형외과</Col>
+            <Col id="RoomType"/>
+            <Col id="Room">투비학회참석</Col>
+          </Row>
+          <Row>
+            <Col id="Name">이창현</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">치과</Col>
+            <Col id="Room">5층 504호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="ClassName">치과</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">한상신</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">치과</Col>
+            <Col id="Room">일본세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">고석률</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">치과</Col>
+            <Col id="Room">5층 505호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">주가현</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">피부과</Col>
+            <Col id="RoomType"/>
+            <Col id="Room">넥사학회참석</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김차영</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">피부과</Col>
+            <Col id="Room">5층 506호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">김지영</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="ClassName">피부과</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">한정훈</Col>
+            <Col id="Image">sta_cm_doc05</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">피부과</Col>
+            <Col id="Room">5층 507호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">이윤선</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">혈액내과</Col>
+            <Col id="Room">넥사학회참석</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">정원식</Col>
+            <Col id="ClassName">혈액내과</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">5층 508호실</Col>
+            <Col id="RoomType">외래진료실</Col>
+          </Row>
+          <Row>
+            <Col id="Name">심정은</Col>
+            <Col id="ClassName">혈액내과</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">일본세미나</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">나성진</Col>
+            <Col id="ClassName">혈액내과</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+        </Rows>
+      </Dataset>
+    </Objects>
+    <Script type="xscript5.1"><![CDATA[this.fv_timerIdx = 0;
+this.fv_timerMax = 50;
+
+this.fv_nClassCount = 0;
+this.fv_nClassCount2 = 0;
+
+this.Button00_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{
+	this.fn_changeClass(); 
+};
+
+this.fn_changeClass = function()
+{
+	var i = 0;
+	this.fv_nClassCount++;
+	this.fv_nClassCount2++;
+	
+	var nValue1;
+	var nValue2;
+	
+	var nRowIdx;
+	var sName;
+	var sClassName;
+	var sImage;
+	var sRoom;
+	var sRoomType;
+	var sType01;
+	var sType02;
+	var sType03;
+	
+	if(this.fv_nClassCount2==23)this.fv_nClassCount2 = 0;
+	
+	for(i=0;i<4;i++)
+	{
+		nRowIdx = (i)+(this.fv_nClassCount2*4);
+		sName = this.dsDoctorList.getColumn(nRowIdx, "Name");
+		sClassName = this.dsDoctorList.getColumn(nRowIdx, "ClassName");
+		sImage = this.dsDoctorList.getColumn(nRowIdx, "Image");
+		sRoom = this.dsDoctorList.getColumn(nRowIdx, "Room");
+		sRoomType = this.dsDoctorList.getColumn(nRowIdx, "RoomType");
+		sType01 = this.dsDoctorList.getColumn(nRowIdx, "Type01");
+		sType02 = this.dsDoctorList.getColumn(nRowIdx, "Type02");
+		sType03 = this.dsDoctorList.getColumn(nRowIdx, "Type03");
+		
+		this.divGrid.form.components["divRow"+i].form.stDoctorImg.set_cssclass(sImage);
+		this.divGrid.form.components["divRow"+i].form.stDoctorName.set_text(sName);
+		this.divGrid.form.components["divRow"+i].form.stClass.set_text(sClassName);
+		this.divGrid.form.components["divRow"+i].form.stRoom.set_text(sRoom);
+		this.divGrid.form.components["divRow"+i].form.stRoomType.set_text(sRoomType);
+		this.divGrid.form.components["divRow"+i].form.stType01.set_cssclass(sType01);
+		this.divGrid.form.components["divRow"+i].form.stType02.set_cssclass(sType02);
+		this.divGrid.form.components["divRow"+i].form.stType03.set_cssclass(sType03);
+		
+		this.divGrid.form.components["divRow"+i].setOffsetLeft(-650);
+	}
+	
+	this.setTimer(2, 10);
+}
+
+this.sample002_ontimer = function(obj:nexacro.Form,e:nexacro.TimerEventInfo)
+{
+	if(e.timerid==2)
+	{
+		this.fv_timerIdx++;
+		
+		var nLeft = nexacro.round(this.fn_moveAni(this.fv_timerIdx, -650, 650, this.fv_timerMax));
+		var nLeft2 = nexacro.round(this.fn_moveAni(this.fv_timerIdx, -700, 700, this.fv_timerMax));
+		var nLeft3 = nexacro.round(this.fn_moveAni(this.fv_timerIdx, -750, 750, this.fv_timerMax));
+		var nLeft4 = nexacro.round(this.fn_moveAni(this.fv_timerIdx, -800, 800, this.fv_timerMax));
+		
+		this.divGrid.form.components["divRow0"].setOffsetLeft(nLeft);
+		this.divGrid.form.components["divRow1"].setOffsetLeft(nLeft2);
+		this.divGrid.form.components["divRow2"].setOffsetLeft(nLeft3);
+		this.divGrid.form.components["divRow3"].setOffsetLeft(nLeft4);
+		
+		if(this.fv_timerIdx==this.fv_timerMax)
+		{
+			this.fv_timerIdx = 0;
+			this.killTimer(2);
+		}
+	}
+};
+
+this.fn_moveAni = function (t, b, c, d) 
+{
+	t /= d/2;
+	if (t < 1) return c/2*t*t*t + b;
+	t -= 2;
+	return c/2*(t*t*t + 2) + b;
+};]]></Script>
+  </Form>
+</FDL>

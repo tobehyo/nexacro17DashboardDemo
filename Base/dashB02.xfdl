@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="dashB01" width="1920" height="1080" titletext="New Form">
+    <Layouts>
+      <Layout height="1080" mobileorientation="landscape" width="1920">
+        <Static id="Static00" taborder="0" left="0" top="0" visible="true" width="1920" cssclass="sta_cm_RFbg01" text="" height="1080"/>
+        <Static id="Static01" taborder="1" text="97" left="604" top="454" width="64" height="87" cssclass="sta_WF_graphText34RB"/>
+        <Static id="Static02" taborder="2" text="명" left="672" top="454" width="35" height="87" cssclass="sta_WF_script20L"/>
+        <Static id="Static03" taborder="3" text="명" left="994" top="382" width="35" height="87" cssclass="sta_WF_script20L"/>
+        <Static id="Static04" taborder="4" text="97" left="926" top="382" width="64" height="87" cssclass="sta_WF_graphText34RB"/>
+        <Static id="Static05" taborder="5" text="명" left="978" top="545" width="35" height="87" cssclass="sta_WF_script20L"/>
+        <Static id="Static06" taborder="6" text="3,125" left="859" top="545" width="115" height="87" cssclass="sta_WF_graphText34RB"/>
+        <Static id="Static07" taborder="7" text="명" left="680" top="332" width="35" height="47" cssclass="sta_WF_script20L"/>
+        <Static id="Static08" taborder="8" text="23,456" left="568" top="332" width="107" height="47" cssclass="sta_WF_graphYellow34RB"/>
+        <Static id="Static09" taborder="9" left="142" top="128" width="74" height="74" cssclass="sta_cm_doc03"/>
+        <Static id="Static10" taborder="10" text="주가현 교수" left="236" top="109" width="154" height="43" cssclass="sta_WF_script22LB"/>
+        <Static id="Static11" taborder="11" text="수술 중" left="236" top="151" width="154" height="33" cssclass="sta_WF_graphYellow22LB"/>
+        <Static id="Static12" taborder="12" left="236" top="198" width="94" height="15" cssclass="sta_WF_graphTime"/>
+        <Static id="Static13" taborder="13" text="6h31m" left="333" top="190" width="80" height="30" cssclass="sta_WF_script20L"/>
+        <Static id="Static14" taborder="14" left="236" top="198" width="54" height="15" cssclass="sta_WF_graphTime_On"/>
+        <Static id="Static15" taborder="15" text="대기중" left="132" top="306" width="281" height="132" cssclass="sta_WF_script22CB"/>
+        <Static id="Static16" taborder="16" left="142" top="542" width="74" height="74" cssclass="sta_cm_doc03"/>
+        <Static id="Static17" taborder="17" text="주가현 교수" left="236" top="523" width="154" height="43" cssclass="sta_WF_script22LB"/>
+        <Static id="Static18" taborder="18" text="수술 중" left="236" top="565" width="154" height="33" cssclass="sta_WF_graphYellow22LB"/>
+        <Static id="Static19" taborder="19" left="236" top="612" width="94" height="15" cssclass="sta_WF_graphTime"/>
+        <Static id="Static20" taborder="20" text="6h31m" left="333" top="604" width="80" height="30" cssclass="sta_WF_script20L"/>
+        <Static id="Static21" taborder="21" left="236" top="612" width="54" height="15" cssclass="sta_WF_graphTime_On"/>
+        <Static id="Static22" taborder="22" text="1" left="547" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="Static23" taborder="23" text="1" left="617" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="Static24" taborder="24" text="1" left="707" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="Static25" taborder="25" text="1" left="777" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="Static26" taborder="26" text="1" left="867" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="Static27" taborder="27" text="1" left="937" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="Static28" taborder="28" left="680" top="127" width="21" height="67" cssclass="sta_WF_timerSec"/>
+        <Static id="Static29" taborder="29" left="841" top="127" width="21" height="67" cssclass="sta_WF_timerSec"/>
+        <Static id="Static32" taborder="30" left="1142" top="208" width="64" height="64" cssclass="sta_cm_doc03"/>
+        <Static id="Static33" taborder="31" text="고석률 교수" left="1211" top="203" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+        <Static id="Static30" taborder="32" text="가정의학과" left="1211" top="246" width="141" height="39" cssclass="sta_WF_gridGray22L"/>
+        <Static id="Static31" taborder="33" text="3층 302호" left="1369" top="203" width="121" height="49" cssclass="sta_WF_gridGray22C"/>
+        <Static id="Static34" taborder="34" text="외래진료실" left="1369" top="246" width="121" height="39" cssclass="sta_WF_gridGray22C"/>
+        <Static id="Static35" taborder="35" left="1533" top="228" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+        <Static id="Static37" taborder="36" left="1622" top="228" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+        <Static id="Static39" taborder="37" left="1712" top="228" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+        <Static id="Static38" taborder="38" left="1142" top="328" width="64" height="64" cssclass="sta_cm_doc03"/>
+        <Static id="Static40" taborder="39" text="고석률 교수" left="1211" top="323" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+        <Static id="Static41" taborder="40" text="가정의학과" left="1211" top="366" width="141" height="39" cssclass="sta_WF_gridGray22L"/>
+        <Static id="Static42" taborder="41" text="3층 302호" left="1369" top="323" width="121" height="49" cssclass="sta_WF_gridGray22C"/>
+        <Static id="Static43" taborder="42" text="외래진료실" left="1369" top="366" width="121" height="39" cssclass="sta_WF_gridGray22C"/>
+        <Static id="Static44" taborder="43" left="1533" top="348" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+        <Static id="Static45" taborder="44" left="1622" top="348" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+        <Static id="Static46" taborder="45" left="1712" top="348" width="25" height="25" cssclass="sta_WF_stateDoctor03"/>
+        <Static id="Static48" taborder="46" left="1142" top="448" width="64" height="64" cssclass="sta_cm_doc03"/>
+        <Static id="Static49" taborder="47" text="고석률 교수" left="1211" top="443" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+        <Static id="Static50" taborder="48" text="가정의학과" left="1211" top="486" width="141" height="39" cssclass="sta_WF_gridGray22L"/>
+        <Static id="Static51" taborder="49" text="3층 302호" left="1369" top="443" width="121" height="49" cssclass="sta_WF_gridGray22C"/>
+        <Static id="Static52" taborder="50" text="외래진료실" left="1369" top="486" width="121" height="39" cssclass="sta_WF_gridGray22C"/>
+        <Static id="Static53" taborder="51" left="1533" top="468" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+        <Static id="Static54" taborder="52" left="1622" top="468" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+        <Static id="Static55" taborder="53" left="1712" top="468" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+        <Static id="Static57" taborder="54" left="1142" top="568" width="64" height="64" cssclass="sta_cm_doc03"/>
+        <Static id="Static58" taborder="55" text="고석률 교수" left="1211" top="563" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+        <Static id="Static59" taborder="56" text="가정의학과" left="1211" top="606" width="141" height="39" cssclass="sta_WF_gridGray22L"/>
+        <Static id="Static60" taborder="57" text="3층 302호" left="1369" top="563" width="121" height="49" cssclass="sta_WF_gridGray22C"/>
+        <Static id="Static61" taborder="58" text="외래진료실" left="1369" top="606" width="121" height="39" cssclass="sta_WF_gridGray22C"/>
+        <Static id="Static62" taborder="59" left="1533" top="588" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+        <Static id="Static63" taborder="60" left="1622" top="588" width="25" height="25" cssclass="sta_WF_stateDoctor02"/>
+        <Static id="Static64" taborder="61" left="1712" top="588" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+        <Static id="Static36" taborder="62" left="116" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="Static47" taborder="63" left="74" top="945" width="1695" height="60" cssclass="sta_WF_graphWait01"/>
+        <Static id="Static56" taborder="64" left="203" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="Static65" taborder="65" text="34" left="116" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static66" taborder="66" text="65" left="203" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static67" taborder="67" left="325" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="Static68" taborder="68" left="412" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="Static69" taborder="69" text="34" left="325" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static70" taborder="70" text="65" left="412" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static71" taborder="71" left="535" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="Static72" taborder="72" left="622" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="Static73" taborder="73" text="34" left="535" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static74" taborder="74" text="65" left="622" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static75" taborder="75" left="744" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="Static76" taborder="76" left="831" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="Static77" taborder="77" text="34" left="744" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static78" taborder="78" text="65" left="831" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static79" taborder="79" left="954" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="Static80" taborder="80" left="1041" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="Static81" taborder="81" text="34" left="954" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static82" taborder="82" text="65" left="1041" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static83" taborder="83" left="1162" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="Static84" taborder="84" left="1249" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="Static85" taborder="85" text="34" left="1162" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static86" taborder="86" text="65" left="1249" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static87" taborder="87" left="1371" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="Static88" taborder="88" left="1458" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="Static89" taborder="89" text="34" left="1371" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static90" taborder="90" text="65" left="1458" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static91" taborder="91" left="1581" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="Static92" taborder="92" left="1668" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="Static93" taborder="93" text="34" left="1581" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static94" taborder="94" text="65" left="1668" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="Static96" taborder="95" left="634" top="72" width="20" height="40" cssclass="sta_WF_timer01"/>
+        <Static id="Static97" taborder="96" left="649" top="72" width="20" height="40" cssclass="sta_WF_timer02"/>
+        <Static id="Static98" taborder="97" left="663" top="72" width="20" height="40" cssclass="sta_WF_timer03"/>
+        <Static id="Static99" taborder="98" left="678" top="72" width="20" height="40" cssclass="sta_WF_timer04"/>
+        <Static id="Static100" taborder="99" left="694" top="72" width="20" height="40" cssclass="sta_WF_timer05"/>
+        <Static id="Static101" taborder="100" left="708" top="72" width="20" height="40" cssclass="sta_WF_timer06"/>
+        <Static id="Static102" taborder="101" left="723" top="72" width="20" height="40" cssclass="sta_WF_timer07"/>
+        <Static id="Static103" taborder="102" left="745" top="72" width="20" height="40" cssclass="sta_WF_timer08"/>
+        <Static id="Static104" taborder="103" left="760" top="72" width="20" height="40" cssclass="sta_WF_timer09"/>
+        <Static id="Static105" taborder="104" left="772" top="72" width="20" height="40" cssclass="sta_WF_timer04"/>
+        <Static id="Static106" taborder="105" left="784" top="72" width="20" height="40" cssclass="sta_WF_timer11"/>
+        <Static id="Static107" taborder="106" left="797" top="72" width="20" height="40" cssclass="sta_WF_timer12"/>
+        <Static id="Static108" taborder="107" left="810" top="72" width="20" height="40" cssclass="sta_WF_timer07"/>
+        <Static id="Static109" taborder="108" left="826" top="72" width="20" height="40" cssclass="sta_WF_timer06"/>
+        <Static id="Static110" taborder="109" left="845" top="72" width="22" height="40" cssclass="sta_WF_timer13"/>
+        <Static id="Static111" taborder="110" left="871" top="72" width="22" height="40" cssclass="sta_WF_timer14"/>
+        <Static id="Static112" taborder="111" left="888" top="72" width="22" height="40" cssclass="sta_WF_timer15"/>
+      </Layout>
+    </Layouts>
+  </Form>
+</FDL>

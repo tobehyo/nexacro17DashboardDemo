@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="frmAll" width="3840" height="1080" titletext="New Form" onkeydown="frmAll_onkeydown">
+    <Layouts>
+      <Layout height="1080" mobileorientation="landscape" width="3840">
+        <Div id="divPart1" taborder="0" left="0" top="0" width="1920" height="1080" url="frame::frmPart1_en.xfdl"/>
+        <Div id="divPart2" taborder="1" left="1920" top="0" width="1920" height="1080" url="frame::frmPart2_en.xfdl"/>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[this.fv_max = false;
+this.frmAll_onkeydown = function(obj:nexacro.Form,e:nexacro.KeyEventInfo)
+{
+	trace(e.keycode);
+	
+	var objApp = nexacro.getApplication();
+	if(e.keycode==123)
+	{
+		if(this.fv_max==false)
+		{	
+			if(objApp.mainframe.openstatus=="maximize") {
+				objApp.mainframe.set_openstatus("normal");
+			}
+			this.fv_max = true;
+			objApp.mainframe.move(0, 0, 3840, 1080);
+			trace(objApp.mainframe.width);
+			objApp.mainframe.set_showtitlebar(false);
+		}else
+		{
+			this.fv_max = false;
+			objApp.mainframe.set_showtitlebar(true);
+		}
+	}
+};
+]]></Script>
+  </Form>
+</FDL>

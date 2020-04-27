@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="frmWeather" width="100" height="100" titletext="New Form" stepitemsize="0" stepshowtype="action">
+    <Layouts>
+      <Layout height="100" mobileorientation="landscape" width="100" stepcount="16">
+        <Static id="stWeather" taborder="0" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather01"/>
+        <Static id="stWeather00" taborder="1" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather02" positionstep="1"/>
+        <Static id="stWeather01" taborder="2" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather03" positionstep="2"/>
+        <Static id="stWeather02" taborder="3" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather04" positionstep="3"/>
+        <Static id="stWeather03" taborder="4" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather05" positionstep="5"/>
+        <Static id="stWeather04" taborder="5" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather06" positionstep="4"/>
+        <Static id="stWeather05" taborder="6" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather07" positionstep="6"/>
+        <Static id="stWeather06" taborder="7" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather08" positionstep="7"/>
+        <Static id="stWeather07" taborder="8" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather09" positionstep="8"/>
+        <Static id="stWeather08" taborder="9" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather10" positionstep="9"/>
+        <Static id="stWeather09" taborder="10" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather11" positionstep="10"/>
+        <Static id="stWeather10" taborder="11" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather12" positionstep="11"/>
+        <Static id="stWeather11" taborder="12" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather13" positionstep="12"/>
+        <Static id="stWeather12" taborder="13" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather14" positionstep="13"/>
+        <Static id="stWeather13" taborder="14" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather15" positionstep="14"/>
+        <Static id="stWeather14" taborder="15" left="0" top="0" width="100" height="100" cssclass="sta_WF_weather16" positionstep="15"/>
+      </Layout>
+    </Layouts>
+  </Form>
+</FDL>

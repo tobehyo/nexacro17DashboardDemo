@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="dashB01" width="1920" height="1080" titletext="New Form">
+    <Layouts>
+      <Layout height="1080" mobileorientation="landscape" width="1920">
+        <Static id="Static00" taborder="0" left="0" top="0" visible="true" width="1920" height="1080" cssclass="sta_cm_LFbg01" text=""/>
+        <Static id="Static01" taborder="1" left="211" top="283" width="300" height="41" cssclass="sta_WF_graphBar01"/>
+        <Static id="Static03" taborder="3" text="불쾌감을 느낄 수 있습니다. 환기 시켜 주세요." left="192" top="342" width="492" height="55" cssclass="sta_WF_script20CB"/>
+        <Static id="Static02" taborder="2" left="425" top="294" width="20" height="20" cssclass="sta_WF_graphPoint"/>
+        <Static id="Static04" taborder="4" text="숯과 굵은 소금을 이용하여 습도를 조절해주세요." left="1028" top="99" width="245" height="88" cssclass="sta_WF_script20LB"/>
+        <Static id="Static10" taborder="10" text="#ffaa17 - 이산화탄소" left="838" top="1017" width="161" height="32" background="#ffaa17" color="white"/>
+        <Static id="Static11" taborder="11" text="#33c2ff - 미세먼지" left="1016" top="1017" width="161" height="32" background="#33c2ff" color="white"/>
+        <Static id="Static12" taborder="12" text="#d070ff - 불쾌지수" left="1194" top="1017" width="161" height="32" background="#d070ff" color="white"/>
+        <Static id="Static13" taborder="13" text="opacity는 20%" left="1392" top="1017" width="161" height="32" background="red" color="white"/>
+        <Static id="Static15" taborder="15" text="약간높음" left="866" top="114" width="132" height="56" cssclass="sta_WF_humidex02"/>
+        <Static id="Static16" taborder="16" left="538" top="235" width="138" height="40" cssclass="sta_WF_scriptState03"/>
+        <Static id="Static22" taborder="22" left="1476" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static23" taborder="23" left="1486" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static24" taborder="24" left="1496" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static25" taborder="25" left="1506" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static26" taborder="26" left="1516" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static27" taborder="27" left="1526" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static28" taborder="28" left="1536" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static29" taborder="29" left="1546" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static30" taborder="30" left="1556" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static31" taborder="31" left="1566" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static32" taborder="32" left="1576" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static33" taborder="33" left="1586" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static34" taborder="34" left="1596" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static35" taborder="35" left="1606" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static36" taborder="36" left="1616" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static37" taborder="37" left="1626" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static38" taborder="38" left="1636" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static39" taborder="39" left="1646" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static40" taborder="40" left="1656" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static41" taborder="41" left="1666" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static42" taborder="42" left="1676" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static43" taborder="43" left="1686" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static44" taborder="44" left="1696" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static45" taborder="45" left="1706" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static46" taborder="46" left="1716" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static47" taborder="47" left="1726" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static48" taborder="48" left="1736" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static49" taborder="49" left="1746" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static50" taborder="50" left="1756" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static51" taborder="51" left="1766" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static52" taborder="52" left="1776" top="213" width="5" height="88" cssclass="sta_WF_dustBar01"/>
+        <Static id="Static53" taborder="53" left="1476" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static54" taborder="54" left="1486" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static55" taborder="55" left="1496" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static56" taborder="56" left="1506" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static57" taborder="57" left="1516" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static58" taborder="58" left="1526" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static59" taborder="59" left="1536" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static60" taborder="60" left="1546" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static61" taborder="61" left="1556" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static62" taborder="62" left="1566" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static63" taborder="63" left="1576" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static64" taborder="64" left="1586" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static65" taborder="65" left="1596" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static66" taborder="66" left="1606" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static67" taborder="67" left="1616" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static68" taborder="68" left="1626" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static69" taborder="69" left="1636" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static70" taborder="70" left="1646" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static71" taborder="71" left="1656" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static72" taborder="72" left="1666" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static73" taborder="73" left="1676" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static74" taborder="74" left="1686" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static75" taborder="75" left="1696" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static76" taborder="76" left="1706" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static77" taborder="77" left="1716" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static78" taborder="78" left="1726" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static79" taborder="79" left="1736" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static80" taborder="80" left="1746" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static81" taborder="81" left="1756" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static82" taborder="82" left="1766" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static83" taborder="83" left="1776" top="367" width="5" height="88" cssclass="sta_WF_humidexBar01"/>
+        <Static id="Static84" taborder="84" left="1476" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static85" taborder="85" left="1486" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static86" taborder="86" left="1496" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static87" taborder="87" left="1506" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static88" taborder="88" left="1516" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static89" taborder="89" left="1526" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static90" taborder="90" left="1536" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static91" taborder="91" left="1546" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static92" taborder="92" left="1556" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static93" taborder="93" left="1566" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static94" taborder="94" left="1576" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static95" taborder="95" left="1586" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static96" taborder="96" left="1596" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static97" taborder="97" left="1606" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static98" taborder="98" left="1616" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static99" taborder="99" left="1626" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static100" taborder="100" left="1636" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static101" taborder="101" left="1646" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static102" taborder="102" left="1656" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static103" taborder="103" left="1666" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static104" taborder="104" left="1676" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static105" taborder="105" left="1686" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static106" taborder="106" left="1696" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static107" taborder="107" left="1706" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static108" taborder="108" left="1716" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static109" taborder="109" left="1726" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static110" taborder="110" left="1736" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static111" taborder="111" left="1746" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static112" taborder="112" left="1756" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static113" taborder="113" left="1766" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static114" taborder="114" left="1776" top="521" width="5" height="88" cssclass="sta_WF_CO2"/>
+        <Static id="Static116" taborder="116" left="798" top="139" width="425" height="425" background="url(&quot;imagerc::img_WF_animation01.png&quot;) no-repeat center center"/>
+        <Static id="Static117" taborder="117" left="892" top="232" width="239" height="239" background="url(&quot;imagerc::img_WF_animation02.png&quot;) no-repeat center center"/>
+        <Static id="Static118" taborder="118" left="1065" top="482" width="269" height="269" background="url(&quot;imagerc::img_WF_animation03.png&quot;) no-repeat center center"/>
+        <Static id="Static08" taborder="8" text="77" left="972" top="346" width="82" height="63" cssclass="sta_WF_graphText48CB"/>
+        <Static id="Static09" taborder="9" text="28" left="1186" top="284" width="72" height="49" cssclass="sta_WF_graphText34RB"/>
+        <Static id="Static14" taborder="14" text="64" left="1129" top="416" width="72" height="49" cssclass="sta_WF_graphText34RB"/>
+        <Static id="Static19" taborder="19" left="1002" top="280" width="20" height="20" cssclass="sta_WF_graphState02"/>
+        <Static id="Static119" taborder="119" left="1105" top="522" width="189" height="189" background="url(&quot;imagerc::img_WF_animation04.png&quot;) no-repeat center center"/>
+        <Static id="Static21" taborder="21" left="1149" top="563" width="100" height="100" cssclass="sta_WF_weather02"/>
+        <Static id="Static120" taborder="120" left="783" top="431" width="159" height="159" background="url(&quot;imagerc::img_WF_animation05.png&quot;) no-repeat center center"/>
+        <Static id="Static121" taborder="121" left="618" top="466" width="259" height="259" background="url(&quot;imagerc::img_WF_animation06.png&quot;) no-repeat center center"/>
+        <Static id="Static05" taborder="5" text="양호한 상태입니다.일상적인 활동이 가능합니다." left="340" top="552" width="304" height="83" cssclass="sta_WF_script20LB"/>
+        <Static id="Static17" taborder="17" left="325" top="629" width="342" height="36" cssclass="sta_WF_dustGraph01"/>
+        <Static id="Static115" taborder="115" left="325" top="629" width="202" height="36" cssclass="sta_WF_dustGraph01_On"/>
+        <Static id="Static06" taborder="6" text="보통" left="699" top="541" width="102" height="43" cssclass="sta_WF_script20CB"/>
+        <Static id="Static07" taborder="7" text="48" left="670" top="584" width="82" height="53" cssclass="sta_WF_graphText48RB"/>
+        <Static id="Static20" taborder="20" left="737" top="522" width="20" height="20" cssclass="sta_WF_graphState01"/>
+        <Static id="Static122" taborder="122" left="1049" top="522" width="101" height="101" cssclass="sta_WF_weatherTitle"/>
+        <Static id="Static18" taborder="18" text="서울" left="1061" top="552" width="82" height="43" cssclass="sta_WF_script20CB"/>
+        <Static id="Static123" taborder="123" text="미세먼지" left="1367" top="691" width="120" height="60" cssclass="sta_WF_dayChartIcon01"/>
+        <Static id="Static124" taborder="124" text="불쾌지수" left="1540" top="691" width="120" height="60" cssclass="sta_WF_dayChartIcon02"/>
+        <Static id="Static125" taborder="125" text="이산화탄소" left="1705" top="691" width="140" height="60" cssclass="sta_WF_dayChartIcon03"/>
+      </Layout>
+    </Layouts>
+  </Form>
+</FDL>

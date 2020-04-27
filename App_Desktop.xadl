@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ADL version="2.0">
+  <Application id="App_Desktop" screenid="Desktop_screen">
+    <Layout>
+      <MainFrame id="mainframe" showtitlebar="true" showstatusbar="false" width="3840" height="1080" titlebarheight="24" titletext="Tobe Hospital DashBoard" showcascadetitletext="false">
+        <ChildFrame id="ChildFrame00" showtitlebar="false" formurl="frame::frmAll.xfdl"/>
+      </MainFrame>
+    </Layout>
+    <Style url="xcssrc::dashB.xcss"/>
+  </Application>
+  <Script type="xscript5.1"><![CDATA[
+]]></Script>
+</ADL>

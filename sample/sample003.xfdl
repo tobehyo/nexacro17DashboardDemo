@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="sample003" width="1280" height="720" titletext="New Form" background="black">
+    <Layouts>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <Div id="divRoom02" taborder="2" left="122" top="304" width="297" height="142" visible="false">
+          <Layouts>
+            <Layout>
+              <Static id="stName" taborder="1" text="주가현 교수" left="114" top="13" width="154" height="43" cssclass="sta_WF_script22LB"/>
+              <Static id="stImg" taborder="1" left="20" top="32" width="74" height="74" cssclass="sta_cm_doc03"/>
+              <Static id="stStatus" taborder="2" text="수술 중" left="114" top="55" width="154" height="33" cssclass="sta_WF_graphYellow22LB"/>
+              <Static id="stBarBg" taborder="3" left="114" top="102" width="94" height="15" cssclass="sta_WF_graphTime"/>
+              <Static id="stBarValue" taborder="4" text="0m" left="211" top="94" width="80" height="30" cssclass="sta_WF_script20L"/>
+              <Static id="stBar" taborder="5" left="114" top="102" width="0" height="15" cssclass="sta_WF_graphTime_On"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Static id="stMessage02" taborder="0" text="대기중" left="132" top="306" width="281" height="132" cssclass="sta_WF_script22CB"/>
+        <Div id="divRoom01" taborder="1" left="122" top="96" width="297" height="142" visible="false">
+          <Layouts>
+            <Layout>
+              <Static id="stImg" taborder="0" left="20" top="32" width="74" height="74" cssclass="sta_cm_doc03"/>
+              <Static id="stName" taborder="1" text="주가현 교수" left="114" top="13" width="154" height="43" cssclass="sta_WF_script22LB"/>
+              <Static id="stStatus" taborder="2" text="수술 중" left="114" top="55" width="154" height="33" cssclass="sta_WF_graphYellow22LB"/>
+              <Static id="stBarBg" taborder="3" left="114" top="102" width="94" height="15" cssclass="sta_WF_graphTime"/>
+              <Static id="stBarValue" taborder="4" text="0m" left="211" top="94" width="80" height="30" cssclass="sta_WF_script20L"/>
+              <Static id="stBar" taborder="5" left="114" top="102" width="0" height="15" cssclass="sta_WF_graphTime_On"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Div id="divRoom03" taborder="3" left="122" top="510" width="297" height="142" visible="false">
+          <Layouts>
+            <Layout>
+              <Static id="stName" taborder="1" text="주가현 교수" left="114" top="13" width="154" height="43" cssclass="sta_WF_script22LB"/>
+              <Static id="stImg" taborder="1" left="20" top="32" width="74" height="74" cssclass="sta_cm_doc03"/>
+              <Static id="stStatus" taborder="2" text="수술 중" left="114" top="55" width="154" height="33" cssclass="sta_WF_graphYellow22LB"/>
+              <Static id="stBarBg" taborder="3" left="114" top="102" width="94" height="15" cssclass="sta_WF_graphTime"/>
+              <Static id="stBarValue" taborder="4" text="0m" left="211" top="94" width="80" height="30" cssclass="sta_WF_script20L"/>
+              <Static id="stBar" taborder="5" left="114" top="102" width="0" height="15" cssclass="sta_WF_graphTime_On"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Static id="stMessage01" taborder="4" text="대기중" left="132" top="105" width="281" height="132" cssclass="sta_WF_script22CB"/>
+        <Static id="stMessage03" taborder="5" text="대기중" left="132" top="520" width="281" height="132" cssclass="sta_WF_script22CB"/>
+        <Button id="Button00" taborder="6" text="Button00" left="829" top="163" width="120" height="50" onclick="Button00_onclick"/>
+        <Button id="Button01" taborder="7" text="Button00" left="829" top="219" width="120" height="50" onclick="Button01_onclick"/>
+      </Layout>
+    </Layouts>
+    <Objects>
+      <Dataset id="dsRoom">
+        <ColumnInfo>
+          <Column id="stime" type="STRING" size="256"/>
+          <Column id="etime" type="STRING" size="256"/>
+          <Column id="mm" type="STRING" size="256"/>
+          <Column id="sec01" type="STRING" size="256"/>
+          <Column id="sec01img" type="STRING" size="256"/>
+          <Column id="sec02" type="STRING" size="256"/>
+          <Column id="sec02img" type="STRING" size="256"/>
+          <Column id="sec03" type="STRING" size="256"/>
+          <Column id="sec03img" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="stime">1300</Col>
+            <Col id="etime">1330</Col>
+            <Col id="sec01">Clean Up</Col>
+            <Col id="sec02">Clean Up</Col>
+            <Col id="sec03">Clean Up</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1330</Col>
+            <Col id="etime">1335</Col>
+            <Col id="sec01">조현정 교수</Col>
+            <Col id="sec02">조현정 교수</Col>
+            <Col id="sec03">조현정 교수</Col>
+            <Col id="sec01img">sta_cm_doc01</Col>
+            <Col id="sec02img">sta_cm_doc01</Col>
+            <Col id="sec03img">sta_cm_doc01</Col>
+            <Col id="mm">5</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1335</Col>
+            <Col id="etime">1355</Col>
+            <Col id="sec01">이홍구 교수</Col>
+            <Col id="sec02">이홍구 교수</Col>
+            <Col id="sec03">이홍구 교수</Col>
+            <Col id="sec01img">sta_cm_doc06</Col>
+            <Col id="sec02img">sta_cm_doc06</Col>
+            <Col id="sec03img">sta_cm_doc06</Col>
+            <Col id="mm">20</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1355</Col>
+            <Col id="etime">1425</Col>
+            <Col id="sec01">최재붕 교수</Col>
+            <Col id="sec02">최재붕 교수</Col>
+            <Col id="sec03">최재붕 교수</Col>
+            <Col id="sec01img">sta_cm_doc01</Col>
+            <Col id="sec03img">sta_cm_doc01</Col>
+            <Col id="sec02img">sta_cm_doc01</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1425</Col>
+            <Col id="etime">1455</Col>
+            <Col id="sec01">문재승 교수</Col>
+            <Col id="sec02">문재승 교수</Col>
+            <Col id="sec03">문재승 교수</Col>
+            <Col id="sec01img">sta_cm_doc06</Col>
+            <Col id="sec03img">sta_cm_doc06</Col>
+            <Col id="sec02img">sta_cm_doc06</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1455</Col>
+            <Col id="etime">1525</Col>
+            <Col id="sec01">김동규 교수</Col>
+            <Col id="sec02">김동규 교수</Col>
+            <Col id="sec03">김동규 교수</Col>
+            <Col id="sec01img">sta_cm_doc08</Col>
+            <Col id="sec03img">sta_cm_doc08</Col>
+            <Col id="sec02img">sta_cm_doc08</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1525</Col>
+            <Col id="etime">1555</Col>
+            <Col id="sec01">송화준 교수</Col>
+            <Col id="sec02">송화준 교수</Col>
+            <Col id="sec03">송화준 교수</Col>
+            <Col id="sec01img">sta_cm_doc11</Col>
+            <Col id="sec02img">sta_cm_doc11</Col>
+            <Col id="sec03img">sta_cm_doc11</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1555</Col>
+            <Col id="etime">1625</Col>
+            <Col id="sec01">Clean Up</Col>
+            <Col id="sec02">Clean Up</Col>
+            <Col id="sec03">Clean Up</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1625</Col>
+            <Col id="etime">1700</Col>
+            <Col id="sec01">이우철 교수</Col>
+            <Col id="sec02">조문옥 교수</Col>
+            <Col id="sec03">모리 히데키 교수</Col>
+            <Col id="sec01img">sta_cm_doc02</Col>
+            <Col id="sec02img">sta_cm_doc10</Col>
+            <Col id="sec03img">sta_cm_doc12</Col>
+            <Col id="mm">35</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1700</Col>
+            <Col id="etime">1735</Col>
+            <Col id="sec01">유희남 교수</Col>
+            <Col id="sec02">황진 교수</Col>
+            <Col id="sec03">강경민 교수</Col>
+            <Col id="sec01img">sta_cm_doc05</Col>
+            <Col id="sec02img">sta_cm_doc03</Col>
+            <Col id="mm">35</Col>
+            <Col id="sec03img">sta_cm_doc09</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1735</Col>
+            <Col id="etime">1810</Col>
+            <Col id="sec03">양석호 교수</Col>
+            <Col id="sec01">대기중</Col>
+            <Col id="sec02">대기중</Col>
+            <Col id="mm">35</Col>
+            <Col id="sec03img">sta_cm_doc02</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1800</Col>
+            <Col id="etime">1830</Col>
+            <Col id="sec01">Close</Col>
+            <Col id="sec02">Close</Col>
+            <Col id="sec03">Close</Col>
+            <Col id="mm">30</Col>
+          </Row>
+        </Rows>
+      </Dataset>
+    </Objects>
+    <Script type="xscript5.1"><![CDATA[this.fv_objDate;
+
+this.Button00_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{
+	this.fv_objDate = new Date("2017/09/27 13:00:00");
+	
+	trace(this.fv_objDate.getFullYear());
+	trace(this.fv_objDate.getMonth());
+	trace(this.fv_objDate.getDate());
+	trace(this.fv_objDate.getHours());
+	trace(this.fv_objDate.getMinutes());
+	trace(this.fv_objDate.getSeconds());
+	
+};
+
+this.Button01_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{
+	this.fv_objDate.addMinutes(30);
+	
+	//trace(this.fv_objDate.getFullYear());
+	//trace(this.fv_objDate.getMonth());
+	//trace(this.fv_objDate.getDate());
+	//trace(this.fv_objDate.getMinutes());
+	//trace(this.fv_objDate.getSeconds());
+	var sTime = this.fv_objDate.getHours().toString().padLeft(2, "0")+this.fv_objDate.getMinutes().toString().padLeft(2, "0");
+	var sTimeString = this.fv_objDate.getHours().toString().padLeft(2, "0")+":"+this.fv_objDate.getMinutes().toString().padLeft(2, "0");
+	trace(sTime, sTimeString);
+	var nRow = this.dsRoom.findRowExpr("nexacro.toNumber(stime)<="+nexacro.toNumber(sTime)+"&&nexacro.toNumber(etime)>"+nexacro.toNumber(sTime));
+	var sSec01 = this.dsRoom.getColumn(nRow, "sec01");
+	var sSec02 = this.dsRoom.getColumn(nRow, "sec02");
+	var sSec03 = this.dsRoom.getColumn(nRow, "sec03");
+	var sSec01Img = this.dsRoom.getColumn(nRow, "sec01img");
+	var sSec02Img = this.dsRoom.getColumn(nRow, "sec02img");
+	var sSec03Img = this.dsRoom.getColumn(nRow, "sec03img");
+	var sMM = this.dsRoom.getColumn(nRow, "mm");
+	var sETime = this.dsRoom.getColumn(nRow, "etime").toString().substr(0, 2)+":"+this.dsRoom.getColumn(nRow, "etime").toString().substr(2, 2);
+	trace(nRow, sSec01, sSec02, sSec03, sSec01Img, sSec02Img, sSec03Img, sMM, sETime);
+	var sDiffTime = new Date("2017/09/27 "+sETime+":00") - new Date("2017/09/27 "+sTimeString+":00") ;
+		 sDiffTime = sDiffTime / 1000/60;
+	
+	var nWidth;
+	if(sSec01=="Clean Up"||sSec01=="Close")
+	{
+		this.divRoom01.set_visible(false);
+		this.divRoom02.set_visible(false);
+		this.divRoom03.set_visible(false);
+		this.stMessage01.set_visible(true);
+		this.stMessage02.set_visible(true);
+		this.stMessage03.set_visible(true);
+		
+	}else
+	{
+		this.divRoom01.set_visible(true);
+		this.divRoom02.set_visible(true);
+		this.divRoom03.set_visible(true);
+		this.stMessage01.set_visible(false);
+		this.stMessage02.set_visible(false);
+		this.stMessage03.set_visible(false);
+		
+		this.divRoom01.form.stName.set_text(sSec01);
+		this.divRoom02.form.stName.set_text(sSec02);
+		this.divRoom03.form.stName.set_text(sSec03);
+		
+		this.divRoom01.form.stImg.set_cssclass(sSec01Img);
+		this.divRoom02.form.stImg.set_cssclass(sSec02Img);
+		this.divRoom03.form.stImg.set_cssclass(sSec03Img);
+		
+		this.divRoom01.form.stBarValue.set_text(sDiffTime+"m");
+		this.divRoom02.form.stBarValue.set_text(sDiffTime+"m");
+		this.divRoom03.form.stBarValue.set_text(sDiffTime+"m");
+		
+		nWidth = sDiffTime*(this.divRoom01.form.stBarBg.getOffsetWidth()/sMM);
+		
+		this.divRoom01.form.stBar.setOffsetWidth(nWidth);
+		this.divRoom02.form.stBar.setOffsetWidth(nWidth);
+		this.divRoom03.form.stBar.setOffsetWidth(nWidth);
+		
+	}	
+};
+]]></Script>
+  </Form>
+</FDL>

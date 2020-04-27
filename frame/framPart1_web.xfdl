@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="framPart1_web" width="1280" height="720" titletext="New Form" onload="framPart1_web_onload">
+    <Layouts>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <WebBrowser id="WebBrowser00" taborder="0" left="0" top="0" width="1920" height="1080"/>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[
+this.framPart1_web_onload = function(obj:nexacro.Form,e:nexacro.LoadEventInfo)
+{
+	var roothost = nexacro.getProjectPath() + "quickview.html?screenid=Desktop_screen&formname=frame::frmPart1_en.xfdl";
+	this.WebBrowser00.set_url(roothost);
+};
+]]></Script>
+  </Form>
+</FDL>

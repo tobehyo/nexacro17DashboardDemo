@@ -1,0 +1,1274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="frmPart1" width="1920" height="1080" titletext="New Form" ontimer="frmPart1_ontimer" onload="frmPart1_onload" onkeydown="frmPart1_onkeydown">
+    <Layouts>
+      <Layout height="1080" mobileorientation="landscape" width="1920">
+        <Static id="Static00" taborder="0" left="0" top="0" visible="true" width="1920" cssclass="sta_cm_LFbg01" text="" bottom="0"/>
+        <Static id="stAni06" taborder="29" left="783" top="431" width="159" height="159" background="url(&quot;imagerc::img_WF_ani06_1.png&quot;) no-repeat center center" opacity="0.40"/>
+        <Static id="stBar" taborder="1" left="211" top="283" width="196" height="41" cssclass="sta_WF_graphBar01"/>
+        <Static id="stCo2Msg" taborder="2" left="192" top="342" width="492" height="55" cssclass="sta_WF_script20CB"/>
+        <Static id="stBarPoint" taborder="3" left="393" top="294" width="20" height="20" cssclass="sta_WF_graphPoint"/>
+        <Static id="stBulkuaMsg" taborder="4" left="1028" top="99" width="255" height="88" cssclass="sta_WF_script20LB"/>
+        <Static id="stMisaeMsg" taborder="5" left="340" top="552" width="304" height="83" cssclass="sta_WF_script20LB"/>
+        <Static id="stMisaeStatus" taborder="6" text="보통" left="699" top="541" width="102" height="43" cssclass="sta_WF_script20CB"/>
+        <Static id="stMisae" taborder="7" text="48" left="670" top="584" width="82" height="53" cssclass="sta_WF_graphText48RB"/>
+        <Static id="stBulkua" taborder="8" text="77" left="972" top="346" width="82" height="63" cssclass="sta_WF_graphText48CB"/>
+        <Static id="stOndo" taborder="9" text="28" left="1185" top="285" width="56" height="49" cssclass="sta_WF_graphText34RB"/>
+        <Static id="stBulkuaStatus" taborder="11" text="약간높음" left="866" top="114" width="132" height="56" cssclass="sta_WF_humidex02"/>
+        <Static id="stCo2Status" taborder="12" left="538" top="235" width="138" height="40" cssclass="sta_WF_scriptState03"/>
+        <Static id="stBarBg2" taborder="13" left="325" top="629" width="342" height="36" cssclass="sta_WF_dustGraph01"/>
+        <Static id="Static19" taborder="14" left="1002" top="280" width="20" height="20" cssclass="sta_WF_graphState02"/>
+        <Static id="stMisaeStatusImg" taborder="15" left="737" top="522" width="20" height="20" cssclass="sta_WF_graphState01" text=""/>
+        <Static id="stBar2" taborder="16" left="325" top="629" width="322" height="36" cssclass="sta_WF_dustGraph01_On"/>
+        <BasicChart id="chtLine01" taborder="18" left="152" top="789" width="1681" height="183" bargrouping="false" text="" binddataset="dsLine" categorycolumn="bind:year">
+          <Contents><![CDATA[{
+	"categoryaxis": {
+		"id": "categoryaxis",
+		"labeltextfont": "9pt \"맑은 고딕\"",
+		"titletextfont": "bold 9pt \"맑은 고딕\"",
+		"labeltextcolor": "#6f6f6f",
+		"ticklinestyle": "0 none",
+		"axislinestyle": "0 none",
+		"titletextcolor": "#4c4c4c",
+		"boardlinestyle": "0 none",
+		"boardlinevisible": "false",
+		"visible": "false"
+	},
+	"valueaxes": [
+		{
+			"id": "valueaxis0",
+			"titletext": "valueaxis",
+			"boardlinevisible": "false",
+			"boardlinestyle": "0 none",
+			"visible": "false",
+			"labeltextfont": "10pt/normal \"맑은 고딕\"",
+			"titletextfont": "bold 12pt \"맑은 고딕\"",
+			"labeltextcolor": "#6f6f6f",
+			"ticklinestyle": "0 none",
+			"axislinestyle": "0 none",
+			"titletextcolor": "#4c4c4c"
+		}
+	],
+	"seriesset": [
+		{
+			"id": "series0",
+			"linetype": "curve",
+			"linevisible": "true",
+			"lineareavisible": "true",
+			"valuecolumn": "bind:c1",
+			"valueaxis": "valueaxis0",
+			"lineareafillstyle": "rgba(51,194,255,0.3)",
+			"linestyle": "1px solid #33c2ff",
+			"barvisible": "false"
+		},
+		{
+			"id": "series1",
+			"linetype": "curve",
+			"linevisible": "true",
+			"lineareavisible": "true",
+			"valuecolumn": "bind:c2",
+			"valueaxis": "valueaxis0",
+			"lineareafillstyle": "rgba(110,67,131,0.2)",
+			"linestyle": "1px solid #6e4383",
+			"barvisible": "false"
+		},
+		{
+			"id": "series2",
+			"linetype": "curve",
+			"linevisible": "true",
+			"lineareavisible": "true",
+			"valuecolumn": "bind:c3",
+			"valueaxis": "valueaxis0",
+			"lineareafillstyle": "rgba(135,91,27,0.2)",
+			"linestyle": "1px solid #875b1b",
+			"barvisible": "false"
+		}
+	],
+	"tooltip": {
+		"id": "tooltip",
+		"background": "#4b4b4b",
+		"linestyle": "0px none",
+		"textcolor": "white",
+		"textfont": "10pt/normal \"맑은 고딕\"",
+		"padding": "5px"
+	},
+	"title": {
+		"id": "title",
+		"textfont": "20pt/normal \"맑은 고딕\"",
+		"padding": "0px 0px 5px",
+		"linestyle": "0px none",
+		"gap": "20"
+	}
+}]]></Contents>
+        </BasicChart>
+        <BasicChart id="BasicChart02" taborder="19" left="1472" top="210" width="316" height="91" categorycolumn="bind:year" bargrouping="false" text="BasicChart01" binddataset="dsBar01">
+          <Contents><![CDATA[{
+	"categoryaxis": {
+		"id": "categoryaxis",
+		"labeltextfont": "11pt \"맑은 고딕\"",
+		"titletextfont": "bold 12pt \"맑은 고딕\"",
+		"labeltextcolor": "#6f6f6f",
+		"ticklinestyle": "0px none",
+		"axislinestyle": "0px none",
+		"titletextcolor": "#4c4c4c",
+		"boardlinestyle": "0px none",
+		"visible": "false"
+	},
+	"valueaxes": [
+		{
+			"id": "valueaxis0",
+			"titletext": "valueaxis",
+			"boardlinevisible": "true",
+			"boardlinestyle": "0px none",
+			"visible": "false",
+			"labeltextfont": "10pt/normal \"맑은 고딕\"",
+			"titletextfont": "bold 12pt \"맑은 고딕\"",
+			"labeltextcolor": "#6f6f6f",
+			"ticklinestyle": "0px none",
+			"axislinestyle": "0px none",
+			"titletextcolor": "#4c4c4c"
+		}
+	],
+	"seriesset": [
+		{
+			"id": "series0",
+			"barvisible": "true",
+			"linevisible": false,
+			"barsize": "50",
+			"barlinestyle": "0px none",
+			"barfillstyle": "#33c2ff",
+			"linefillstyle": "#1a22bf",
+			"itemtextcolor": "#003860",
+			"titletext": "series",
+			"itemtextfont": "bold 12pt \"맑은 고딕\"",
+			"itemtextvisible": "false",
+			"pointvisible": false,
+			"lineareavisible": false,
+			"lineareafillstyle": "rgba(0,148,253,0.3)",
+			"pointfillstyle": "#0172c3",
+			"pointsize": "5",
+			"linestyle": "0px none",
+			"pointlinestyle": "1px solid #0172c3",
+			"valuecolumn": "bind:c0"
+		}
+	]
+}]]></Contents>
+        </BasicChart>
+        <BasicChart id="BasicChart01" taborder="20" left="1472" top="364" width="316" height="91" categorycolumn="bind:year" bargrouping="false" text="BasicChart01" binddataset="dsBar01">
+          <Contents><![CDATA[{
+	"categoryaxis": {
+		"id": "categoryaxis",
+		"labeltextfont": "11pt \"맑은 고딕\"",
+		"titletextfont": "bold 12pt \"맑은 고딕\"",
+		"labeltextcolor": "#6f6f6f",
+		"ticklinestyle": "0px none",
+		"axislinestyle": "0px none",
+		"titletextcolor": "#4c4c4c",
+		"boardlinestyle": "0px none",
+		"visible": "false"
+	},
+	"valueaxes": [
+		{
+			"id": "valueaxis0",
+			"titletext": "valueaxis",
+			"boardlinevisible": "true",
+			"boardlinestyle": "0px none",
+			"visible": "false",
+			"labeltextfont": "10pt/normal \"맑은 고딕\"",
+			"titletextfont": "bold 12pt \"맑은 고딕\"",
+			"labeltextcolor": "#6f6f6f",
+			"ticklinestyle": "0px none",
+			"axislinestyle": "0px none",
+			"titletextcolor": "#4c4c4c"
+		}
+	],
+	"seriesset": [
+		{
+			"id": "series0",
+			"barvisible": "true",
+			"linevisible": false,
+			"barsize": "50",
+			"barlinestyle": "0px none",
+			"barfillstyle": "#d070ff",
+			"linefillstyle": "#1a22bf",
+			"itemtextcolor": "#003860",
+			"titletext": "series",
+			"itemtextfont": "bold 12pt \"맑은 고딕\"",
+			"itemtextvisible": "false",
+			"pointvisible": false,
+			"lineareavisible": false,
+			"lineareafillstyle": "rgba(0,148,253,0.3)",
+			"pointfillstyle": "#0172c3",
+			"pointsize": "15",
+			"linestyle": "0px none",
+			"pointlinestyle": "1px solid #0172c3",
+			"valuecolumn": "bind:c1"
+		}
+	]
+}]]></Contents>
+        </BasicChart>
+        <BasicChart id="BasicChart03" taborder="21" left="1472" top="519" width="316" height="91" categorycolumn="bind:year" bargrouping="false" text="BasicChart01" binddataset="dsBar01">
+          <Contents><![CDATA[{
+	"categoryaxis": {
+		"id": "categoryaxis",
+		"labeltextfont": "11pt \"맑은 고딕\"",
+		"titletextfont": "bold 12pt \"맑은 고딕\"",
+		"labeltextcolor": "#6f6f6f",
+		"ticklinestyle": "0px none",
+		"axislinestyle": "0px none",
+		"titletextcolor": "#4c4c4c",
+		"boardlinestyle": "0px none",
+		"visible": "false"
+	},
+	"valueaxes": [
+		{
+			"id": "valueaxis0",
+			"titletext": "valueaxis",
+			"boardlinevisible": "true",
+			"boardlinestyle": "0px none",
+			"visible": "false",
+			"labeltextfont": "10pt/normal \"맑은 고딕\"",
+			"titletextfont": "bold 12pt \"맑은 고딕\"",
+			"labeltextcolor": "#6f6f6f",
+			"ticklinestyle": "0px none",
+			"axislinestyle": "0px none",
+			"titletextcolor": "#4c4c4c"
+		}
+	],
+	"seriesset": [
+		{
+			"id": "series0",
+			"barvisible": "true",
+			"linevisible": false,
+			"barsize": "50",
+			"barlinestyle": "0px none",
+			"barfillstyle": "#ffaa17",
+			"linefillstyle": "#1a22bf",
+			"itemtextcolor": "#003860",
+			"titletext": "series",
+			"itemtextfont": "bold 12pt \"맑은 고딕\"",
+			"itemtextvisible": "false",
+			"pointvisible": false,
+			"lineareavisible": false,
+			"lineareafillstyle": "rgba(0,148,253,0.3)",
+			"pointfillstyle": "#0172c3",
+			"pointsize": "15",
+			"linestyle": "0px none",
+			"pointlinestyle": "1px solid #0172c3",
+			"valuecolumn": "bind:c2"
+		}
+	]
+}]]></Contents>
+        </BasicChart>
+        <Div id="divWeather" taborder="22" left="1149" top="563" width="100" height="100" url="frame::frmWeather.xfdl"/>
+        <Static id="stBulkuaStatusImg" taborder="24" left="1002" top="280" width="20" height="20" cssclass="sta_WF_graphState01" text=""/>
+        <Static id="Static116" taborder="25" left="915" top="254" width="195" height="200" cssclass="sta_WF_graphCircle01"/>
+        <PieChart id="PieChart00" taborder="17" left="884" top="243" width="258" height="223" text="" categorycolumn="bind:year" binddataset="dsPie">
+          <Contents><![CDATA[{
+	"title": {
+		"id": "title",
+		"text": "Pie Chart",
+		"linestyle": "0px none",
+		"visible": "false"
+	},
+	"seriesset": [
+		{
+			"id": "series0",
+			"radius": "98",
+			"innerradius": "88",
+			"linestyle": "0 none",
+			"itemtextvisible": "false",
+			"itemtextfont": "10pt/normal \"맑은 고딕\"",
+			"valuecolumn": "bind:c0",
+			"fillstyle": "transparent, transparent,transparent,transparent, white"
+		}
+	],
+	"tooltip": {
+		"id": "tooltip",
+		"background": "#4b4b4b",
+		"linestyle": "0px none",
+		"padding": "5px",
+		"textcolor": "white",
+		"textfont": "10pt/normal \"맑은 고딕\""
+	}
+}]]></Contents>
+        </PieChart>
+        <Static id="stAni02" taborder="26" left="798" top="139" width="425" height="425" background="url(&quot;imagerc::img_WF_ani02_1.png&quot;) no-repeat center center" text="" onclick="stAni02_onclick"/>
+        <Static id="stAni01" taborder="27" left="892" top="232" width="239" height="239" background="url(&quot;imagerc::img_WF_ani01_1.png&quot;) no-repeat center center" text=""/>
+        <Static id="stAni03" taborder="28" left="1065" top="482" width="269" height="269" background="url(&quot;imagerc::img_WF_ani03_1.png&quot;) no-repeat center center"/>
+        <Static id="stAni05" taborder="30" left="618" top="464" width="259" height="259" background="url(&quot;imagerc::img_WF_ani05_1.png&quot;) no-repeat center center" text=""/>
+        <Static id="stAni04" taborder="31" left="1105" top="522" width="189" height="189" background="url(&quot;imagerc::img_WF_ani04_1.png&quot;) no-repeat center center" text=""/>
+        <Static id="stSupdo" taborder="10" text="64" left="1118" top="416" width="64" height="49" cssclass="sta_WF_graphText34RB"/>
+        <Static id="Static122" taborder="32" left="1049" top="522" width="101" height="101" cssclass="sta_WF_weatherTitle"/>
+        <Div id="divCity" taborder="23" left="1073" top="552" width="59" height="43" url="frame::frmCity.xfdl"/>
+        <Static id="stCo2" taborder="33" text="64" left="548" top="286" width="72" height="49" cssclass="sta_WF_graphText34RB"/>
+        <Static id="stLineLable01" taborder="34" text="미세먼지" left="1367" top="691" width="120" height="60" cssclass="sta_WF_dayChartIcon01"/>
+        <Static id="stLineLable02" taborder="35" text="불쾌지수" left="1540" top="691" width="120" height="60" cssclass="sta_WF_dayChartIcon02" enable="false"/>
+        <Static id="stLineLable03" taborder="36" text="이산화탄소" left="1705" top="691" width="140" height="60" cssclass="sta_WF_dayChartIcon03" enable="false"/>
+        <BasicChart id="chtLine02" taborder="37" left="152" top="789" width="1681" height="183" bargrouping="false" text="" binddataset="dsLine" categorycolumn="bind:year" visible="false">
+          <Contents><![CDATA[{
+	"categoryaxis": {
+		"id": "categoryaxis",
+		"labeltextfont": "9pt \"맑은 고딕\"",
+		"titletextfont": "bold 9pt \"맑은 고딕\"",
+		"labeltextcolor": "#6f6f6f",
+		"ticklinestyle": "0 none",
+		"axislinestyle": "0 none",
+		"titletextcolor": "#4c4c4c",
+		"boardlinestyle": "0 none",
+		"boardlinevisible": "false",
+		"visible": "false"
+	},
+	"valueaxes": [
+		{
+			"id": "valueaxis0",
+			"titletext": "valueaxis",
+			"boardlinevisible": "false",
+			"boardlinestyle": "0 none",
+			"visible": "false",
+			"labeltextfont": "10pt/normal \"맑은 고딕\"",
+			"titletextfont": "bold 12pt \"맑은 고딕\"",
+			"labeltextcolor": "#6f6f6f",
+			"ticklinestyle": "0 none",
+			"axislinestyle": "0 none",
+			"titletextcolor": "#4c4c4c"
+		}
+	],
+	"seriesset": [
+		{
+			"id": "series0",
+			"linetype": "curve",
+			"linevisible": "true",
+			"lineareavisible": "true",
+			"valuecolumn": "bind:c2",
+			"valueaxis": "valueaxis0",
+			"lineareafillstyle": "rgba(208,112,255,0.3)",
+			"linestyle": "1px solid #d070ff",
+			"barvisible": "false"
+		},
+		{
+			"id": "series1",
+			"linetype": "curve",
+			"linevisible": "true",
+			"lineareavisible": "true",
+			"valuecolumn": "bind:c3",
+			"valueaxis": "valueaxis0",
+			"lineareafillstyle": "rgba(135,91,27,0.2)",
+			"linestyle": "1px solid #875b1b",
+			"barvisible": "false"
+		},
+		{
+			"id": "series2",
+			"linetype": "curve",
+			"linevisible": "true",
+			"lineareavisible": "true",
+			"valuecolumn": "bind:c1",
+			"valueaxis": "valueaxis0",
+			"lineareafillstyle": "rgba(52,119,149,0.2)",
+			"linestyle": "1px solid #347795",
+			"barvisible": "false"
+		}
+	],
+	"tooltip": {
+		"id": "tooltip",
+		"background": "#4b4b4b",
+		"linestyle": "0px none",
+		"textcolor": "white",
+		"textfont": "10pt/normal \"맑은 고딕\"",
+		"padding": "5px"
+	},
+	"title": {
+		"id": "title",
+		"textfont": "20pt/normal \"맑은 고딕\"",
+		"padding": "0px 0px 5px",
+		"linestyle": "0px none",
+		"gap": "20"
+	}
+}]]></Contents>
+        </BasicChart>
+        <BasicChart id="chtLine03" taborder="38" left="152" top="789" width="1681" height="183" bargrouping="false" text="" binddataset="dsLine" categorycolumn="bind:year" visible="false">
+          <Contents><![CDATA[{
+	"categoryaxis": {
+		"id": "categoryaxis",
+		"labeltextfont": "9pt \"맑은 고딕\"",
+		"titletextfont": "bold 9pt \"맑은 고딕\"",
+		"labeltextcolor": "#6f6f6f",
+		"ticklinestyle": "0 none",
+		"axislinestyle": "0 none",
+		"titletextcolor": "#4c4c4c",
+		"boardlinestyle": "0 none",
+		"boardlinevisible": "false",
+		"visible": "false",
+		"labelgap": "20"
+	},
+	"valueaxes": [
+		{
+			"id": "valueaxis0",
+			"titletext": "valueaxis",
+			"boardlinevisible": "false",
+			"boardlinestyle": "0 none",
+			"visible": "false",
+			"labeltextfont": "10pt/normal \"맑은 고딕\"",
+			"titletextfont": "bold 12pt \"맑은 고딕\"",
+			"labeltextcolor": "#6f6f6f",
+			"ticklinestyle": "0 none",
+			"axislinestyle": "0 none",
+			"titletextcolor": "#4c4c4c"
+		}
+	],
+	"seriesset": [
+		{
+			"id": "series0",
+			"barvisible": "false",
+			"linevisible": "true",
+			"barfillstyle": "#5bbbff",
+			"linefillstyle": "#1a22bf",
+			"itemtextcolor": "#003860",
+			"titletext": "series",
+			"itemtextfont": "bold 12pt \"맑은 고딕\"",
+			"itemtextvisible": "false",
+			"pointvisible": "false",
+			"lineareavisible": "true",
+			"lineareafillstyle": "rgba(255,170,23,0.3)",
+			"pointfillstyle": "#0172c3",
+			"pointsize": "15",
+			"linestyle": "1px solid #ffaa17",
+			"linetype": "curve",
+			"valuecolumn": "bind:c3",
+			"valueaxis": "valueaxis0",
+			"highlightlinevisible": "false",
+			"highlightbarvisible": "false",
+			"highlightpointvisible": "false"
+		},
+		{
+			"id": "series1",
+			"linetype": "curve",
+			"barvisible": "false",
+			"linevisible": "true",
+			"lineareavisible": "true",
+			"itemtextvisible": "false",
+			"valuecolumn": "bind:c1",
+			"valueaxis": "valueaxis0",
+			"lineareafillstyle": "rgba(52,119,149,0.2)",
+			"linestyle": "1px solid #347795",
+			"selecttype": "select"
+		},
+		{
+			"id": "series2",
+			"linetype": "curve",
+			"barvisible": "false",
+			"linevisible": "true",
+			"lineareavisible": "true",
+			"itemtextvisible": "false",
+			"valuecolumn": "bind:c2",
+			"valueaxis": "valueaxis0",
+			"lineareafillstyle": "rgba(110,67,131,0.2)",
+			"linestyle": "1px solid #6e4383"
+		}
+	],
+	"tooltip": {
+		"id": "tooltip",
+		"background": "#4b4b4b",
+		"linestyle": "0px none",
+		"textcolor": "white",
+		"textfont": "10pt/normal \"맑은 고딕\"",
+		"padding": "5px"
+	},
+	"title": {
+		"id": "title",
+		"textfont": "20pt/normal \"맑은 고딕\"",
+		"padding": "0px 0px 5px",
+		"linestyle": "0px none",
+		"visible": "true",
+		"gap": "20"
+	}
+}]]></Contents>
+        </BasicChart>
+      </Layout>
+    </Layouts>
+    <Objects>
+      <Dataset id="dsLine" oncolumnchanged="Dataset00_oncolumnchanged" updatecontrol="false">
+        <ColumnInfo>
+          <Column id="year" type="STRING" size="256"/>
+          <Column id="c0" type="INT" size="256"/>
+          <Column id="c1" type="INT" size="256"/>
+          <Column id="c2" type="INT" size="256"/>
+          <Column id="c3" type="INT" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="year">1</Col>
+            <Col id="c0">5</Col>
+            <Col id="c1">30</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="year">2</Col>
+            <Col id="c0">5</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">5</Col>
+            <Col id="c3">45</Col>
+          </Row>
+          <Row>
+            <Col id="year">3</Col>
+            <Col id="c0">15</Col>
+            <Col id="c1">50</Col>
+            <Col id="c2">5</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">4</Col>
+            <Col id="c0">55</Col>
+            <Col id="c1">20</Col>
+            <Col id="c2">15</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">5</Col>
+            <Col id="c0">60</Col>
+            <Col id="c1">70</Col>
+            <Col id="c2">55</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="year">6</Col>
+            <Col id="c0">30</Col>
+            <Col id="c1">30</Col>
+            <Col id="c2">20</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">7</Col>
+            <Col id="c0">10</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">30</Col>
+            <Col id="c3">40</Col>
+          </Row>
+          <Row>
+            <Col id="year">8</Col>
+            <Col id="c0">50</Col>
+            <Col id="c1">50</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">9</Col>
+            <Col id="c0">20</Col>
+            <Col id="c1">20</Col>
+            <Col id="c2">30</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">10</Col>
+            <Col id="c0">70</Col>
+            <Col id="c1">70</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">32</Col>
+          </Row>
+          <Row>
+            <Col id="year">11</Col>
+            <Col id="c0">5</Col>
+            <Col id="c1">30</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="year">12</Col>
+            <Col id="c0">5</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">5</Col>
+            <Col id="c3">45</Col>
+          </Row>
+          <Row>
+            <Col id="year">13</Col>
+            <Col id="c0">15</Col>
+            <Col id="c1">50</Col>
+            <Col id="c2">5</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">14</Col>
+            <Col id="c0">55</Col>
+            <Col id="c1">20</Col>
+            <Col id="c2">15</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">15</Col>
+            <Col id="c0">60</Col>
+            <Col id="c1">70</Col>
+            <Col id="c2">55</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="year">16</Col>
+            <Col id="c0">30</Col>
+            <Col id="c1">30</Col>
+            <Col id="c2">20</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">17</Col>
+            <Col id="c0">10</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">30</Col>
+            <Col id="c3">40</Col>
+          </Row>
+          <Row>
+            <Col id="year">18</Col>
+            <Col id="c0">50</Col>
+            <Col id="c1">50</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">19</Col>
+            <Col id="c0">20</Col>
+            <Col id="c1">20</Col>
+            <Col id="c2">30</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">20</Col>
+            <Col id="c0">70</Col>
+            <Col id="c1">70</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">32</Col>
+          </Row>
+          <Row>
+            <Col id="year">21</Col>
+            <Col id="c0">20</Col>
+            <Col id="c1">20</Col>
+            <Col id="c2">30</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">22</Col>
+            <Col id="c0">70</Col>
+            <Col id="c1">70</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">32</Col>
+          </Row>
+          <Row>
+            <Col id="year">23</Col>
+            <Col id="c0">5</Col>
+            <Col id="c1">30</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="year">24</Col>
+            <Col id="c0">5</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">5</Col>
+            <Col id="c3">45</Col>
+          </Row>
+        </Rows>
+      </Dataset>
+      <Dataset id="dsPie" oncolumnchanged="Dataset00_oncolumnchanged" updatecontrol="false">
+        <ColumnInfo>
+          <Column id="year" type="STRING" size="256"/>
+          <Column id="c0" type="INT" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="year">1</Col>
+            <Col id="c0">1</Col>
+          </Row>
+          <Row>
+            <Col id="year">2</Col>
+            <Col id="c0">1</Col>
+          </Row>
+          <Row>
+            <Col id="year">3</Col>
+            <Col id="c0">1</Col>
+          </Row>
+          <Row>
+            <Col id="year">4</Col>
+            <Col id="c0">1</Col>
+          </Row>
+          <Row>
+            <Col id="year">5</Col>
+            <Col id="c0">96</Col>
+          </Row>
+        </Rows>
+      </Dataset>
+      <Dataset id="dsBar01">
+        <ColumnInfo>
+          <Column id="year" type="STRING" size="256"/>
+          <Column id="c0" type="INT" size="256"/>
+          <Column id="c1" type="INT" size="256"/>
+          <Column id="c2" type="INT" size="256"/>
+          <Column id="c3" type="INT" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="year">1</Col>
+            <Col id="c0">2</Col>
+            <Col id="c1">2</Col>
+            <Col id="c2">2</Col>
+            <Col id="c3">2</Col>
+          </Row>
+          <Row>
+            <Col id="year">2</Col>
+            <Col id="c0">5</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">5</Col>
+            <Col id="c3">45</Col>
+          </Row>
+          <Row>
+            <Col id="year">3</Col>
+            <Col id="c0">15</Col>
+            <Col id="c1">50</Col>
+            <Col id="c2">5</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">4</Col>
+            <Col id="c0">55</Col>
+            <Col id="c1">20</Col>
+            <Col id="c2">15</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">5</Col>
+            <Col id="c0">60</Col>
+            <Col id="c1">70</Col>
+            <Col id="c2">55</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="year">6</Col>
+            <Col id="c0">30</Col>
+            <Col id="c1">30</Col>
+            <Col id="c2">20</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">7</Col>
+            <Col id="c0">10</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">30</Col>
+            <Col id="c3">40</Col>
+          </Row>
+          <Row>
+            <Col id="year">8</Col>
+            <Col id="c0">50</Col>
+            <Col id="c1">50</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">9</Col>
+            <Col id="c0">20</Col>
+            <Col id="c1">20</Col>
+            <Col id="c2">30</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">10</Col>
+            <Col id="c0">70</Col>
+            <Col id="c1">70</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">32</Col>
+          </Row>
+          <Row>
+            <Col id="year">11</Col>
+            <Col id="c0">2</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">5</Col>
+            <Col id="c3">50</Col>
+          </Row>
+          <Row>
+            <Col id="year">12</Col>
+            <Col id="c0">5</Col>
+            <Col id="c1">5</Col>
+            <Col id="c2">15</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="c0">15</Col>
+            <Col id="year">13</Col>
+            <Col id="c1">15</Col>
+            <Col id="c2">55</Col>
+            <Col id="c3">70</Col>
+          </Row>
+          <Row>
+            <Col id="c0">55</Col>
+            <Col id="year">14</Col>
+            <Col id="c1">55</Col>
+            <Col id="c2">60</Col>
+            <Col id="c3">2</Col>
+          </Row>
+          <Row>
+            <Col id="c0">60</Col>
+            <Col id="year">15</Col>
+            <Col id="c1">60</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">30</Col>
+          </Row>
+          <Row>
+            <Col id="c0">30</Col>
+            <Col id="year">16</Col>
+            <Col id="c1">30</Col>
+            <Col id="c2">50</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="c0">10</Col>
+            <Col id="year">17</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">20</Col>
+            <Col id="c3">30</Col>
+          </Row>
+          <Row>
+            <Col id="c0">50</Col>
+            <Col id="year">18</Col>
+            <Col id="c1">50</Col>
+            <Col id="c2">20</Col>
+            <Col id="c3">50</Col>
+          </Row>
+          <Row>
+            <Col id="c0">20</Col>
+            <Col id="year">19</Col>
+            <Col id="c1">5</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">5</Col>
+          </Row>
+          <Row>
+            <Col id="c0">70</Col>
+            <Col id="year">20</Col>
+            <Col id="c1">15</Col>
+            <Col id="c2">50</Col>
+            <Col id="c3">5</Col>
+          </Row>
+          <Row>
+            <Col id="c0">2</Col>
+            <Col id="year">21</Col>
+            <Col id="c1">55</Col>
+            <Col id="c2">20</Col>
+            <Col id="c3">15</Col>
+          </Row>
+          <Row>
+            <Col id="c0">5</Col>
+            <Col id="year">22</Col>
+            <Col id="c1">60</Col>
+            <Col id="c2">70</Col>
+            <Col id="c3">55</Col>
+          </Row>
+          <Row>
+            <Col id="c0">15</Col>
+            <Col id="year">23</Col>
+            <Col id="c1">30</Col>
+            <Col id="c2">30</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="c0">55</Col>
+            <Col id="year">24</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">30</Col>
+          </Row>
+          <Row>
+            <Col id="c0">60</Col>
+            <Col id="year">25</Col>
+            <Col id="c1">55</Col>
+            <Col id="c2">55</Col>
+            <Col id="c3">60</Col>
+          </Row>
+          <Row>
+            <Col id="c0">30</Col>
+            <Col id="year">26</Col>
+            <Col id="c1">60</Col>
+            <Col id="c2">60</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="c0">10</Col>
+            <Col id="year">27</Col>
+            <Col id="c1">30</Col>
+            <Col id="c2">30</Col>
+            <Col id="c3">50</Col>
+          </Row>
+          <Row>
+            <Col id="c0">50</Col>
+            <Col id="year">28</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="c0">20</Col>
+            <Col id="year">29</Col>
+            <Col id="c1">50</Col>
+            <Col id="c2">50</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="c0">70</Col>
+            <Col id="year">30</Col>
+            <Col id="c1">20</Col>
+            <Col id="c2">5</Col>
+            <Col id="c3">10</Col>
+          </Row>
+          <Row>
+            <Col id="year">31</Col>
+            <Col id="c0">50</Col>
+            <Col id="c1">10</Col>
+            <Col id="c2">10</Col>
+            <Col id="c3">20</Col>
+          </Row>
+          <Row>
+            <Col id="year">32</Col>
+            <Col id="c0">20</Col>
+            <Col id="c1">50</Col>
+            <Col id="c2">50</Col>
+            <Col id="c3">20</Col>
+          </Row>
+        </Rows>
+      </Dataset>
+      <Dataset id="dsWeather">
+        <ColumnInfo>
+          <Column id="city" type="STRING" size="256"/>
+          <Column id="weather" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="city">서울</Col>
+            <Col id="weather">01</Col>
+          </Row>
+          <Row>
+            <Col id="city">대전</Col>
+            <Col id="weather">02</Col>
+          </Row>
+          <Row>
+            <Col id="city">대구</Col>
+            <Col id="weather">03</Col>
+          </Row>
+          <Row>
+            <Col id="city">부산</Col>
+            <Col id="weather">04</Col>
+          </Row>
+          <Row>
+            <Col id="city">광주</Col>
+            <Col id="weather">05</Col>
+          </Row>
+          <Row>
+            <Col id="city">세종</Col>
+            <Col id="weather">06</Col>
+          </Row>
+        </Rows>
+      </Dataset>
+    </Objects>
+    <Script type="xscript5.1"><![CDATA[//this.fv_Step = 30;
+this.fv_WeatherIdx = 0;
+this.fv_chartvisibleIdx = 0;
+this.fv_chartdelay = 0;
+this.fv_delay = 0;
+this.fv_delay2 = 0;
+this.fv_delay3 = 0;
+this.fv_aniIdx1 = 0;
+this.fv_aniIdx2 = 0;
+this.fv_aniIdx3 = 11;
+
+this.fv_rotate = true;
+
+this.fv_max = false;
+
+this.frmPart1_onload = function(obj:nexacro.Form,e:nexacro.LoadEventInfo)
+{ 
+	this.setTimer(1, 100);
+};
+
+this.fn_drawChart = function()
+{
+	var nOndo;
+	var nSupdo;
+	var nCo2 = 450;
+	var nCo2Max = 5000;
+	var nCo2Width = 295;
+	var nMisae = 80;
+	var nMisaeMax = 100;
+	var nMisaeWidth = 322;
+	var nBulkua =70;
+	
+	this.stOndo.set_text(25 + nexacro.round(Math.random()-1));
+	this.stSupdo.set_text(60 + nexacro.round(Math.random()-1));
+	
+	this.dsBar01.set_enableevent(false);
+	
+	for(i=0;i<31;i++)
+	{
+		//this.dsBar01.setColumn(i, "year", i);
+		this.dsBar01.setColumn(i, "c0", this.dsBar01.getColumn(i+1, "c0"));
+		this.dsBar01.setColumn(i, "c1", this.dsBar01.getColumn(i+1, "c1"));
+		this.dsBar01.setColumn(i, "c2", this.dsBar01.getColumn(i+1, "c2"));
+	}
+	
+	this.dsBar01.setColumn(31, "c0", nexacro.round(Math.random()*100));
+	this.dsBar01.setColumn(31, "c1", nexacro.round(Math.random()*100));
+	this.dsBar01.setColumn(31, "c2", nexacro.round(Math.random()*100));
+
+	this.dsBar01.set_enableevent(true);
+	
+	//this.BasicChart01.set_binddataset("dsBar01");
+	//this.BasicChart02.set_binddataset("dsBar01");
+	//this.BasicChart03.set_binddataset("dsBar01");
+	
+//	this.BasicChart01.draw();
+//	this.BasicChart02.draw();
+//	this.BasicChart03.draw();
+	
+	nCo2 = nCo2 + (nexacro.round(Math.random()))-1;
+	nWidth = nexacro.round(nCo2Width*(nCo2/nCo2Max));
+	
+	this.stBar.setOffsetWidth(nWidth);
+	this.stBarPoint.setOffsetLeft(this.stBar.getOffsetLeft()+nWidth-5);
+	this.stCo2.set_text(nCo2);
+	if(nCo2<=450)
+	{
+		this.stCo2Status.set_cssclass("sta_WF_scriptState01");
+		this.stCo2Msg.set_text("건강한 환기 관리가 된 레벨");
+	}else if(nCo2<=700)
+	{
+		this.stCo2Status.set_cssclass("sta_WF_scriptState02");
+		this.stCo2Msg.set_text("장시간 있어도 건강에 문제없는 레벨");
+	}else if(nCo2<=1000)
+	{
+		this.stCo2Status.set_cssclass("sta_WF_scriptState03");
+		this.stCo2Msg.set_text("건강 피해는 없지만, 불쾌감을 느끼는 사람이 있는 레벨");
+	}else if(nCo2<=2000)
+	{
+		this.stCo2Status.set_cssclass("sta_WF_scriptState04");
+		this.stCo2Msg.set_text("졸림을 느끼는 등 컨디션 변화가 나오는 레벨");
+	}else
+	{
+		this.stCo2Status.set_cssclass("sta_WF_scriptState05");
+		this.stCo2Msg.set_text("장시간 노출 시 건강을 해치는 레벨");
+	}
+	
+	nMisae = nMisae +(nexacro.round(Math.random()))-1;
+	nWidth = nexacro.round(nMisaeWidth*(nMisae/nMisaeMax));
+	this.stBar2.setOffsetWidth(nWidth);
+	this.stMisae.set_text(nMisae);
+	
+	if(nMisae<=30)
+	{
+		this.stMisaeStatusImg.set_cssclass("sta_WF_graphState01");
+		this.stMisaeStatus.set_text("좋음");
+		this.stMisaeMsg.set_text("모든 활동이 가능");
+	}else if(nMisae<=80)
+	{
+		this.stMisaeStatusImg.set_cssclass("sta_WF_graphState02");
+		this.stMisaeStatus.set_text("보통");
+		this.stMisaeMsg.set_text("일상적인 활동이 가능");
+	}else if(nMisae<=120)
+	{
+		this.stMisaeStatusImg.set_cssclass("sta_WF_graphState03");
+		this.stMisaeStatus.set_text("약간 나쁨");
+		this.stMisaeMsg.set_text("호흡기 혹은 심혈관질환자\n: 심한 실외활동 자제");
+	}else if(nMisae<=200)
+	{
+		this.stMisaeStatusImg.set_cssclass("sta_WF_graphState04");
+		this.stMisaeStatus.set_text("나쁨");
+		this.stMisaeMsg.set_text("호흡기 혹은 심혈관 잘환자, 노약자\n: 실외활동 자제");
+	}else
+	{
+		this.stMisaeStatusImg.set_cssclass("sta_WF_graphState05");
+		this.stMisaeStatus.set_text("매우 나쁨");
+		this.stMisaeMsg.set_text("모든사람 : 실외활동 제한");
+	}
+	
+	var nRandom = (nexacro.round(Math.random()))-1;
+	var nPieData =  nBulkua+nRandom;
+	
+	if(nPieData<=25)
+	{
+		this.dsPie.setColumn(0, "c0", nPieData);
+		this.dsPie.setColumn(1, "c0", 1);
+		this.dsPie.setColumn(2, "c0", 1);
+		this.dsPie.setColumn(3, "c0", 1);
+		this.dsPie.setColumn(4, "c0", 100-nPieData);
+	}else if(nPieData<=50)
+	{
+		this.dsPie.setColumn(0, "c0", 25);
+		this.dsPie.setColumn(1, "c0", nPieData-25);
+		this.dsPie.setColumn(2, "c0", 1);
+		this.dsPie.setColumn(3, "c0", 1);
+		this.dsPie.setColumn(4, "c0", 100-nPieData);
+	}else if(nPieData<=75)
+	{
+		this.dsPie.setColumn(0, "c0", 25);
+		this.dsPie.setColumn(1, "c0", 25);
+		this.dsPie.setColumn(2, "c0", nPieData-50);
+		this.dsPie.setColumn(3, "c0", 1);
+		this.dsPie.setColumn(4, "c0", 100-nPieData);
+	}else
+	{
+		this.dsPie.setColumn(0, "c0", 25);
+		this.dsPie.setColumn(1, "c0", 25);
+		this.dsPie.setColumn(2, "c0", 25);
+		this.dsPie.setColumn(3, "c0", nPieData-75);
+		this.dsPie.setColumn(4, "c0", 100-nPieData);
+	}
+	
+	//this.PieChart00.set_binddataset(null);
+	//this.PieChart00.set_binddataset("dsPie");
+	//this.PieChart00.draw();
+	
+	this.stBulkua.set_text(nPieData);
+	
+	if(nPieData<68)
+	{
+		this.stBulkuaStatusImg.set_cssclass("sta_WF_graphState01");
+		this.stBulkuaStatus.set_text("낮음");
+		this.stBulkuaMsg.set_text("전원 쾌적함을 느낌");
+	}else if(nPieData<75)
+	{
+		this.stBulkuaStatusImg.set_cssclass("sta_WF_graphState02");
+		this.stBulkuaStatus.set_text("보통");
+		this.stBulkuaMsg.set_text("불쾌감을 나타내기 시작함");
+	}else if(nPieData<80)
+	{
+		this.stBulkuaStatusImg.set_cssclass("sta_WF_graphState03");
+		this.stBulkuaStatus.set_text("약간 높음");
+		this.stBulkuaMsg.set_text("50% 정도 불쾌감을 느낌");
+	}else if(nPieData<85)
+	{
+		this.stBulkuaStatusImg.set_cssclass("sta_WF_graphState04");
+		this.stBulkuaStatus.set_text("높음");
+		this.stBulkuaMsg.set_text("대부분 불쾌감을 느낌");
+	}else
+	{
+		this.stBulkuaStatusImg.set_cssclass("sta_WF_graphState05");
+		this.stBulkuaStatus.set_text("매우 높음");
+		this.stBulkuaMsg.set_text("전원 불쾌감을 느낌");
+	}
+}
+
+this.frmPart1_ontimer = function(obj:nexacro.Form,e:nexacro.TimerEventInfo)
+{
+	var nRow;
+	var nWidth;
+	
+	var sCity;
+	var sWeather;
+			
+	if(e.timerid==1)
+	{
+		this.fv_chartdelay++;
+		
+		if(this.fv_chartdelay==50)
+		{
+			this.fv_chartdelay = 0;
+			
+			this.fn_drawChart();
+		}
+		
+		this.fv_delay2++;
+		
+		if(this.fv_delay2==5)
+		{
+			this.fv_delay2 = 0;
+					
+			this.fv_delay++;
+			
+			if(this.fv_delay==3)
+			{
+				this.divCity.form.setStepIndex(this.fv_WeatherIdx);
+			}
+			
+			if(this.fv_delay==4)
+			{
+				
+				this.divWeather.form.setStepIndex(this.fv_WeatherIdx);
+				this.fv_delay = 0;
+				this.fv_WeatherIdx++;
+				
+				if(this.fv_WeatherIdx==16)this.fv_WeatherIdx = 0;
+			}
+		}
+		
+		this.fv_aniIdx1++;
+		
+		if(this.fv_rotate==true)
+		{
+			this.fv_aniIdx2++;
+			this.fv_aniIdx3--;
+		}
+		else
+		{
+			this.fv_aniIdx2--;
+			this.fv_aniIdx3++;
+		}
+		
+		this.stAni01.set_background('url("imagerc::img_WF_ani01_'+this.fv_aniIdx1+'.png") no-repeat center center')
+		this.stAni02.set_background('url("imagerc::img_WF_ani02_'+this.fv_aniIdx1+'.png") no-repeat center center')
+		this.stAni03.set_background('url("imagerc::img_WF_ani03_'+this.fv_aniIdx2+'.png") no-repeat center center')
+		this.stAni04.set_background('url("imagerc::img_WF_ani04_'+this.fv_aniIdx3+'.png") no-repeat center center')
+		this.stAni05.set_background('url("imagerc::img_WF_ani05_'+this.fv_aniIdx2+'.png") no-repeat center center')
+		this.stAni06.set_background('url("imagerc::img_WF_ani06_'+this.fv_aniIdx3+'.png") no-repeat center center')
+		
+		if(this.fv_aniIdx1==2)this.fv_aniIdx1=0;
+		if(this.fv_aniIdx2==10)this.fv_rotate = false;
+		else if(this.fv_aniIdx2==1)this.fv_rotate = true;
+		
+		this.fv_delay3++;
+		
+		if(this.fv_delay3==20)
+		{
+			this.fv_delay3 = 0;
+			this.fv_chartvisibleIdx++;
+			
+			if(this.fv_chartvisibleIdx==0)
+			{
+				this.stLineLable01.set_enable(true);
+				this.stLineLable02.set_enable(false);
+				this.stLineLable03.set_enable(false);
+				this.chtLine01.set_visible(true);
+				this.chtLine02.set_visible(false);
+				this.chtLine03.set_visible(false);
+			}else if(this.fv_chartvisibleIdx==1)
+			{
+				this.stLineLable01.set_enable(false);
+				this.stLineLable02.set_enable(true);
+				this.stLineLable03.set_enable(false);
+				this.chtLine01.set_visible(false);
+				this.chtLine02.set_visible(true);
+				this.chtLine03.set_visible(false);
+			}else if(this.fv_chartvisibleIdx==2)
+			{
+				this.stLineLable01.set_enable(false);
+				this.stLineLable02.set_enable(false);
+				this.stLineLable03.set_enable(true);
+				this.chtLine01.set_visible(false);
+				this.chtLine02.set_visible(false);
+				this.chtLine03.set_visible(true);
+				this.fv_chartvisibleIdx = -1;
+			}
+		}
+	} 
+};
+
+this.frmPart1_onkeydown = function(obj:nexacro.Form,e:nexacro.KeyEventInfo)
+{
+	if(e.keycode==123)
+	{
+		if(this.fv_max==false)
+		{
+			this.fv_max = true;
+			nexacro.getApplication().mainframe.move(0, 0, 1920, 1080);
+			nexacro.getApplication().mainframe.set_showtitlebar(false);
+		}else
+		{
+			this.fv_max = false;
+			nexacro.getApplication().mainframe.set_showtitlebar(true);
+		}
+	}
+};
+
+]]></Script>
+  </Form>
+</FDL>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="sample001" width="1280" height="720" titletext="New Form" onload="sample001_onload" ontimer="sample001_ontimer">
+    <Layouts>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <ImageViewer id="ImageViewer00" taborder="0" text="ImageViewer00" left="384" top="98" width="395" height="395" image="url('theme://images/btn_TF_Close.png')" background="black"/>
+        <Button id="Button01" taborder="1" text="Button01" left="875" top="104" width="120" height="50" onclick="Button01_onclick"/>
+        <Div id="divCanvas" taborder="2" text="Div00" left="29" top="58" width="325" height="392"/>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[this.fv_targetCanvas;
+this.fv_moveIdx = 1;
+
+this.sample001_onload = function(obj:nexacro.Form,e:nexacro.LoadEventInfo)
+{
+	//create CanvasElement into Div
+	var control_elem = this.divCanvas.getElement();
+	var window = this.divCanvas._getWindow();
+	trace(control_elem, window);
+	if(control_elem)
+	{
+		this.fv_targetCanvas = new nexacro.CanvasElement(control_elem);
+		this.fv_targetCanvas.create(window);
+		this.fv_targetCanvas.setElementSize(395, 395);
+	}
+	
+	// create image test
+	this.fv_objImg = new nexacro.Image();
+	
+	this.fv_objImg.imgLeft = 0;
+	this.fv_objImg.imgTop = 0;
+	this.fv_objImg.imgWidth = 395;
+	this.fv_objImg.imgHeight = 395;
+	
+	this.fv_objImg.addEventHandler("onload", this.fn_Image_onload, this);
+	this.fv_objImg.addEventHandler("onerror", this.fn_Image_onerror, this);
+	
+	//this.fv_objImg.set_src("imagerc::img_WF_animation01.png");
+	this.fv_objImg.set_src("imagerc::aaa.png");
+	
+	this.fv_targetCanvas.translate(198, 198);
+};
+
+this.fn_Image_onload = function(obj, e)
+{
+	//this.sleep(10);
+	trace("fn_Image onload");
+}
+
+this.fn_Image_onerror = function(obj, e)
+{
+	trace("fn_Image_onerror");
+}
+
+this.Button00_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{	
+	this.setTimer(1, 1000);
+};
+
+this.sample001_ontimer = function(obj:nexacro.Form,e:nexacro.TimerEventInfo)
+{
+	this.fv_moveIdx++;
+	
+	if(this.fv_moveIdx==3)this.fv_moveIdx= 1;
+	
+	//this.fv_targetCanvas.rotate(this.fv_moveIdx *Math.PI/180);
+	//this.fv_targetCanvas.drawImage(this.fv_objImg, -198, -198, this.fv_objImg.imgWidth, this.fv_objImg.imgHeight);
+	//this.fv_targetCanvas.clearRect(-198, -198, 395, 395);
+	//this.fv_moveIdx++;
+	this.ImageViewer00.set_image("imagerc::img_WF_ani04_"+this.fv_moveIdx+".png");
+	
+};
+
+this.Button01_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{
+	this.setTimer(1, 100);
+};
+]]></Script>
+  </Form>
+</FDL>

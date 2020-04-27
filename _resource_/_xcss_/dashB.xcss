@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XCSS version="1.0"><![CDATA[/*** 공통 ***/
+
+.Static.sta_cm_doc01
+{
+	-nexa-edge : url("imagerc::img_WF_doctor01.png") 0px 0px;
+}
+.Static.sta_cm_doc02
+{
+	-nexa-edge : url("imagerc::img_WF_doctor02.png") 0px 0px; 
+}
+.Static.sta_cm_doc03
+{
+	-nexa-edge : url("imagerc::img_WF_doctor03.png") 0px 0px;
+}
+.Static.sta_cm_doc04
+{
+	-nexa-edge : url("imagerc::img_WF_doctor04.png") 0px 0px;
+}
+.Static.sta_cm_doc05
+{
+	-nexa-edge : url("imagerc::img_WF_doctor05.png") 0px 0px;
+}
+.Static.sta_cm_doc06
+{
+	-nexa-edge : url("imagerc::img_WF_doctor06.png") 0px 0px;
+}
+.Static.sta_cm_doc07
+{
+	-nexa-edge : url("imagerc::img_WF_doctor07.png") 0px 0px;
+}
+.Static.sta_cm_doc08
+{
+	-nexa-edge : url("imagerc::img_WF_doctor08.png") 0px 0px;
+}
+.Static.sta_cm_doc09
+{
+	-nexa-edge : url("imagerc::img_WF_doctor09.png") 0px 0px;
+}
+.Static.sta_cm_doc10
+{
+	-nexa-edge : url("imagerc::img_WF_doctor10.png") 0px 0px;
+}
+.Static.sta_cm_doc11
+{
+	-nexa-edge : url("imagerc::img_WF_doctor11.png") 0px 0px;
+}
+.Static.sta_cm_doc12
+{
+	-nexa-edge : url("imagerc::img_WF_doctor12.png") 0px 0px;
+}
+.Static.sta_cm_doc13
+{
+	-nexa-edge : url("imagerc::img_WF_doctor13.png") 0px 0px;
+}
+
+/*** Background ***/
+.Static.sta_cm_LFbg01
+{
+	background : url("imagerc::img_cm_LFbg01.png") no-repeat left top;
+}
+.Static.sta_cm_RFbg01
+{
+	background : url("imagerc::img_cm_RFbg01.png") no-repeat left top;
+}
+.Static.sta_cm_LFbg01_new
+{
+	background : url("imagerc::img_cm_LFbg01_new.png") no-repeat left top;
+}
+.Static.sta_cm_RFbg01_new
+{
+	background : url("imagerc::img_cm_RFbg01_new.png") no-repeat left top;
+}
+
+
+
+
+.Static.sta_WF_graphText48LB
+{
+	color : #ffffff;
+	font : bold 48px "Arial";
+	-nexa-text-align : left;
+}
+.Static.sta_WF_graphText48RB
+{
+	color : #ffffff;
+	font : bold 48px "Arial";
+	-nexa-text-align : right;
+}
+.Static.sta_WF_graphText48CB
+{
+	color : #ffffff;
+	font : bold 48px "Arial";
+	-nexa-text-align : center;
+}
+
+.Static.sta_WF_graphText34LB
+{
+	color : #ffffff;
+	font : bold 34px "Arial";
+	-nexa-text-align : left;
+}
+.Static.sta_WF_graphText34RB
+{
+	color : #ffffff;
+	font : bold 34px "Arial";
+	-nexa-text-align : right;
+}
+.Static.sta_WF_graphText34CB
+{
+	color : #ffffff;
+	font : bold 34px "Arial";
+	-nexa-text-align : center;
+}
+
+
+.Static.sta_WF_script22LB
+{
+	color : #ffffff;
+	font : bold 22px "맑은 고딕";
+	-nexa-text-align : left;
+	-nexa-word-wrap : char;
+}
+.Static.sta_WF_script22CB
+{
+	color : #ffffff;
+	font : bold 22px "맑은 고딕";
+	-nexa-text-align : center;
+	-nexa-word-wrap : char;
+}
+
+.Static.sta_WF_script20C
+{
+	color : #ffffff;
+	font : 20px "맑은 고딕";
+	-nexa-text-align : center;
+	-nexa-word-wrap : char;
+}
+.Static.sta_WF_script20L
+{
+	color : #ffffff;
+	font : 20px "맑은 고딕";
+	-nexa-text-align : left;
+	-nexa-word-wrap : char;
+}
+.Static.sta_WF_script20LB
+{
+	color : #ffffff;
+	font : normal 700 20px "맑은 고딕";
+	-nexa-text-align : left;
+}
+.Static.sta_WF_script20CB
+{
+	color : #ffffff;
+	font : normal 700 20px "맑은 고딕";
+	-nexa-text-align : center;
+}
+.Static.sta_WF_script18CB
+{
+	color : #ffffff;
+	font : normal 700 18px "맑은 고딕";
+	-nexa-text-align : center;
+}
+.Static.sta_WF_script16CB
+{
+	color : #ffffff;
+	font : normal 700 16px "맑은 고딕";
+	-nexa-text-align : center;
+}
+.Static.sta_WF_script12LB
+{
+	color : #ffffff;
+	font : normal 700 12px "맑은 고딕";
+	-nexa-text-align : left;
+}
+.Static.sta_WF_script12CB
+{
+	color : #ffffff;
+	font : normal 700 12px "맑은 고딕";
+	-nexa-text-align : center;
+}
+.Static.sta_WF_graphYellow34RB
+{
+	color : #ffe71f;
+	font : bold 34px "Arial";
+	-nexa-text-align : right;
+}
+.Static.sta_WF_graphYellow22LB
+{
+	color : #ffe71f;
+	font : bold 22px "맑은 고딕";
+	-nexa-text-align : left;
+}
+
+.Static.sta_WF_gridGray22L
+{
+	color : #b9babd;
+	font : 22px "맑은 고딕";
+	-nexa-word-wrap : char;
+	-nexa-text-align : left;
+}
+.Static.sta_WF_gridGraySubText
+{
+	color : #b9babd;
+	font : 16px "맑은 고딕";
+	-nexa-word-wrap : char;
+	-nexa-text-align : center;
+}
+.Static.sta_WF_gridGray22C
+{
+	color : #b9babd;
+	font : 22px "맑은 고딕";
+	-nexa-word-wrap : char;
+	-nexa-text-align : center;
+}
+
+.Static.sta_WF_graphSubTextCB
+{
+	color : #ffffff;
+	font : bold 10px "Arial";
+	-nexa-text-align : center;
+}
+
+.Static.sta_WF_graphSurgeryRoomTextCB
+{
+	color : #ffffff;
+	font : bold 12px "Arial";
+	-nexa-text-align : center;
+}
+
+/* 공통 그래프 */
+.Static.sta_WF_graphState01
+{
+	-nexa-edge : url("imagerc::img_WF_graphState01.png") 0px 0px;
+}
+.Static.sta_WF_graphState02
+{
+	-nexa-edge : url("imagerc::img_WF_graphState02.png") 0px 0px;
+}
+.Static.sta_WF_graphState03
+{
+	-nexa-edge : url("imagerc::img_WF_graphState03.png") 0px 0px;
+}
+.Static.sta_WF_graphState04
+{
+	-nexa-edge : url("imagerc::img_WF_graphState04.png") 0px 0px;
+}
+.Static.sta_WF_graphState05
+{
+	-nexa-edge : url("imagerc::img_WF_graphState05.png") 0px 0px;
+}
+
+/* 이산화탄소 */
+.Static.sta_WF_graphPoint
+{
+	background : url("imagerc::img_WF_graphPoint01.png") no-repeat center center;
+}
+.Static.sta_WF_graphBar01
+{
+	background : url("imagerc::img_WFgraphBar01.png") no-repeat left center;
+}
+
+.Static.sta_WF_scriptState01
+{
+	background : url("imagerc::img_WF_scriptState01.png") no-repeat center center;
+}
+.Static.sta_WF_scriptState02
+{
+	background : url("imagerc::img_WF_scriptState02.png") no-repeat center center;
+}
+.Static.sta_WF_scriptState03
+{
+	background : url("imagerc::img_WF_scriptState03.png") no-repeat center center;
+}
+.Static.sta_WF_scriptState03_new
+{
+	background : url("imagerc::img_WF_scriptState03_new.png") no-repeat center center;
+}
+.Static.sta_WF_scriptState04
+{
+	background : url("imagerc::img_WF_scriptState04.png") no-repeat center center;
+}
+.Static.sta_WF_scriptState05
+{
+	background : url("imagerc::img_WF_scriptState05.png") no-repeat center center;
+}
+
+
+/* 미세먼지 */
+
+.Static.sta_WF_dustGraph01
+{
+	background : url("imagerc::img_WF_graphBar01.png") no-repeat left center;
+}
+.Static.sta_WF_dustGraph01_On
+{
+	background : url("imagerc::img_WF_graphBar01_On.png") no-repeat left center;
+}
+
+
+/* 불쾌지수 */
+.Static.sta_WF_humidex01
+{
+	font : normal 700 24px "맑은 고딕";
+	color : #18c6ff;
+	-nexa-text-align : center;
+}
+.Static.sta_WF_humidex02
+{
+	font : normal 700 24px "맑은 고딕";
+	color : #66ff00;
+	-nexa-text-align : center;
+}
+.Static.sta_WF_humidex03
+{
+	font : normal 700 24px "맑은 고딕";
+	color : #ffe71f;
+	-nexa-text-align : center;
+}
+.Static.sta_WF_humidex04
+{
+	font : normal 700 24px "맑은 고딕";
+	color : #ff7800;
+	-nexa-text-align : center;
+}
+.Static.sta_WF_humidex05
+{
+	font : normal 700 24px "맑은 고딕";
+	color : #ff2913;
+	-nexa-text-align : center;
+}
+
+
+.Static.sta_WF_graphCircle01
+{
+	background : url("imagerc::img_WF_graphCircle01.png") no-repeat center center;
+}
+
+
+/* 하루 실시간 차트 */
+.Static.sta_WF_dayChartIcon01
+{
+	background : url("imagerc::img_WF_dayChartIcon01.png") no-repeat left center;
+	color : #ffffff;
+	font : normal 500 20px "맑은 고딕";
+	-nexa-padding : 0px 0px 0px 40px;
+	-nexa-text-align : left;
+}
+.Static.sta_WF_dayChartIcon01[status=disabled]
+{
+	opacity : 0.30;
+}
+.Static.sta_WF_dayChartIcon02
+{
+	background : url("imagerc::img_WF_dayChartIcon02.png") no-repeat left center;
+	color : #ffffff;
+	font : normal 500 20px "맑은 고딕";
+	-nexa-padding : 0px 0px 0px 40px;
+	-nexa-text-align : left;
+}
+.Static.sta_WF_dayChartIcon02[status=disabled]
+{
+	opacity : 0.30;
+}
+.Static.sta_WF_dayChartIcon03
+{
+	background : url("imagerc::img_WF_dayChartIcon03.png") no-repeat left center;
+	color : #ffffff;
+	font : normal 500 20px "맑은 고딕";
+	-nexa-padding : 0px 0px 0px 40px;
+	-nexa-text-align : left;
+}
+.Static.sta_WF_dayChartIcon03[status=disabled]
+{
+	opacity : 0.30;
+}
+
+
+/* 날씨 */
+.Static.sta_WF_weatherTitle
+{
+	background : url("imagerc::img_ds_weatherTitle.png") no-repeat center center;
+}
+
+.Static.sta_WF_weather01
+{
+	-nexa-edge : url("imagerc::img_ds_weather01.png") 0px 0px;
+}
+.Static.sta_WF_weather02
+{
+	-nexa-edge : url("imagerc::img_ds_weather02.png") 0px 0px;
+}
+.Static.sta_WF_weather03
+{
+	-nexa-edge : url("imagerc::img_ds_weather03.png") 0px 0px;
+}
+.Static.sta_WF_weather04
+{
+	-nexa-edge : url("imagerc::img_ds_weather04.png") 0px 0px;
+}
+.Static.sta_WF_weather05
+{
+	-nexa-edge : url("imagerc::img_ds_weather05.png") 0px 0px;
+}
+.Static.sta_WF_weather06
+{
+	-nexa-edge : url("imagerc::img_ds_weather06.png") 0px 0px;
+}
+.Static.sta_WF_weather07
+{
+	-nexa-edge : url("imagerc::img_ds_weather07.png") 0px 0px;
+}
+.Static.sta_WF_weather08
+{
+	-nexa-edge : url("imagerc::img_ds_weather08.png") 0px 0px;
+}
+.Static.sta_WF_weather09
+{
+	-nexa-edge : url("imagerc::img_ds_weather09.png") 0px 0px;
+}
+.Static.sta_WF_weather10
+{
+	-nexa-edge : url("imagerc::img_ds_weather10.png") 0px 0px;
+}
+.Static.sta_WF_weather11
+{
+	-nexa-edge : url("imagerc::img_ds_weather11.png") 0px 0px;
+}
+.Static.sta_WF_weather12
+{
+	-nexa-edge : url("imagerc::img_ds_weather12.png") 0px 0px;
+}
+.Static.sta_WF_weather13
+{
+	-nexa-edge : url("imagerc::img_ds_weather13.png") 0px 0px;
+}
+.Static.sta_WF_weather14
+{
+	-nexa-edge : url("imagerc::img_ds_weather14.png") 0px 0px;
+}
+.Static.sta_WF_weather15
+{
+	-nexa-edge : url("imagerc::img_ds_weather15.png") 0px 0px;
+}
+.Static.sta_WF_weather16
+{
+	-nexa-edge : url("imagerc::img_ds_weather16.png") 0px 0px;
+}
+
+
+
+/* 실시간 차트 */
+.Static.sta_WF_dustBar01
+{
+	background : #33c2ff;
+}
+.Static.sta_WF_humidexBar01
+{
+	background : #c348ff;
+}
+.Static.sta_WF_CO2
+{
+	background : #ff802c;
+}
+
+
+/*** 수술실 현황 ***/
+
+.Static.sta_WF_graphTime
+{
+	background : #414960;
+}
+.Static.sta_WF_graphTime_On
+{
+	background : #e50837;
+}
+
+
+
+/*** 시계 ***/
+.Static.sta_WF_timerNum
+{
+	color : #ffffff;
+	font : bold 50px "Arial";
+	-nexa-text-align : center;
+}
+.Static.sta_WF_timerSec
+{
+	background : url("imagerc::img_WF_timerSec.png") no-repeat center center;
+}
+
+.Static.sta_WF_timer01
+{
+	background : url("imagerc::img_WF_nexaTimer01.png") no-repeat center center;
+}
+.Static.sta_WF_timer01[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer01_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer02
+{
+	background : url("imagerc::img_WF_nexaTimer02.png") no-repeat center center;
+}
+.Static.sta_WF_timer02[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer02_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer03
+{
+	background : url("imagerc::img_WF_nexaTimer03.png") no-repeat center center;
+}
+.Static.sta_WF_timer03[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer03_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer04
+{
+	background : url("imagerc::img_WF_nexaTimer04.png") no-repeat center center;
+}
+.Static.sta_WF_timer04[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer04_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer05
+{
+	background : url("imagerc::img_WF_nexaTimer05.png") no-repeat center center;
+}
+.Static.sta_WF_timer05[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer05_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer06
+{
+	background : url("imagerc::img_WF_nexaTimer06.png") no-repeat center center;
+}
+.Static.sta_WF_timer06[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer06_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer07
+{
+	background : url("imagerc::img_WF_nexaTimer07.png") no-repeat center center;
+}
+.Static.sta_WF_timer07[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer07_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer08
+{
+	background : url("imagerc::img_WF_nexaTimer08.png") no-repeat center center;
+}
+.Static.sta_WF_timer08[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer08_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer09
+{
+	background : url("imagerc::img_WF_nexaTimer09.png") no-repeat center center;
+}
+.Static.sta_WF_timer09[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer09_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer10
+{
+	background : url("imagerc::img_WF_nexaTimer10.png") no-repeat center center;
+}
+.Static.sta_WF_timer10[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer10_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer11
+{
+	background : url("imagerc::img_WF_nexaTimer11.png") no-repeat center center;
+}
+.Static.sta_WF_timer11[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer11_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer12
+{
+	background : url("imagerc::img_WF_nexaTimer12.png") no-repeat center center;
+}
+.Static.sta_WF_timer12[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer12_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer13
+{
+	background : url("imagerc::img_WF_nexaTimer13.png") no-repeat center center;
+}
+.Static.sta_WF_timer13[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer13_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer14
+{
+	background : url("imagerc::img_WF_nexaTimer14.png") no-repeat center center;
+}
+.Static.sta_WF_timer14[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer14_D.png") no-repeat center center;
+}
+.Static.sta_WF_timer15
+{
+	background : url("imagerc::img_WF_nexaTimer15.png") no-repeat center center;
+}
+.Static.sta_WF_timer15[status=disabled]
+{
+	background : url("imagerc::img_WF_nexaTimer15_D.png") no-repeat center center;
+}
+
+
+
+
+/* 의료진 현황 */
+
+.Static.sta_WF_stateDoctor01
+{
+	background : url("imagerc::img_WF_stateDoctor01.png") no-repeat center center;
+}
+.Static.sta_WF_stateDoctor02
+{
+	background : url("imagerc::img_WF_stateDoctor02.png") no-repeat center center;
+}
+.Static.sta_WF_stateDoctor03
+{
+	background : url("imagerc::img_WF_stateDoctor03.png") no-repeat center center;
+}
+.Static.sta_WF_stateDoctor04
+{
+	background : url("imagerc::img_WF_stateDoctor04.png") no-repeat center center;
+}
+
+
+/* 진료과별 현황 */
+.Static.sta_WF_waitP
+{
+	background : #2678ff;
+}
+.Static.sta_WF_reserveP
+{
+	background : #2deac9;
+}
+.Static.sta_WF_graphWait01
+{
+	background : url("imagerc::img_WF_graphWait01.png") no-repeat center bottom;
+}
+.Static.sta_WF_graphWait02
+{
+	background : url("imagerc::img_WF_graphWait02.png") no-repeat center bottom;
+}
+.Static.sta_WF_graphWait03
+{
+	background : url("imagerc::img_WF_graphWait03.png") no-repeat center bottom;
+}
+.Static.sta_WF_graphWait01_new
+{
+	background : url("imagerc::img_WF_graphWait01_new.png") no-repeat center bottom;
+}
+.Static.sta_WF_graphWait02_new
+{
+	background : url("imagerc::img_WF_graphWait02_new.png") no-repeat center bottom;
+}
+.Static.sta_WF_graphWait03_new
+{
+	background : url("imagerc::img_WF_graphWait03_new.png") no-repeat center bottom;
+}
+.Static.sta_WF_animation01
+{
+	background : url("imagerc::img_WF_animation01.gif") no-repeat center center;
+}
+
+/* hospital visitor area */
+.Static.sta_WF_hospitalAreaText
+{
+	color : #ffffff;
+	font : bold 14px "Arial";
+	-nexa-text-align : center;
+}
+.Static.sta_WF_hospitalAreaTextPersons
+{
+	color : #ffffff;
+	font : bold 10px "Arial";
+	-nexa-text-align : center;
+}]]></XCSS>

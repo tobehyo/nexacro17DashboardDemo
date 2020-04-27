@@ -1,0 +1,1947 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="frmPart2" width="1920" height="1080" titletext="New Form" onload="frmPart2_onload" ontimer="frmPart2_ontimer" onkeydown="frmPart2_onkeydown">
+    <Layouts>
+      <Layout height="1080" mobileorientation="landscape" width="1920">
+        <Static id="Static00" taborder="0" left="0" top="0" visible="true" width="1920" height="1080" text="" cssclass="sta_cm_RFbg01_new"/>
+        <Static id="stInCount" taborder="1" text="21" left="601" top="454" width="64" height="87" cssclass="sta_WF_graphText34RB"/>
+        <Static id="Static02" taborder="2" text="persons" left="-322" top="454" width="45" height="87" cssclass="sta_WF_hospitalAreaTextPersons"/>
+        <Static id="Static03" taborder="3" text="persons" left="990" top="382" width="45" height="87" cssclass="sta_WF_hospitalAreaTextPersons"/>
+        <Static id="stOutCount" taborder="4" text="25" left="922" top="382" width="64" height="87" cssclass="sta_WF_graphText34RB"/>
+        <Static id="Static05" taborder="5" text="persons" left="969" top="545" width="45" height="87" cssclass="sta_WF_hospitalAreaTextPersons"/>
+        <Static id="stWaitCount" taborder="6" text="130" left="850" top="545" width="115" height="87" cssclass="sta_WF_graphText34RB"/>
+        <Static id="Static07" taborder="7" text="persons" left="680" top="332" width="45" height="47" cssclass="sta_WF_hospitalAreaTextPersons"/>
+        <Static id="stRegCount" taborder="8" text="15,000" left="568" top="332" width="107" height="47" cssclass="sta_WF_graphYellow34RB"/>
+        <Static id="stHH1" taborder="9" text="1" left="547" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="stHH2" taborder="10" text="1" left="617" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="stMM1" taborder="11" text="1" left="-277" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="stMM2" taborder="12" text="1" left="777" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="stSS1" taborder="13" text="1" left="867" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="stSS2" taborder="14" text="1" left="937" top="127" width="58" height="67" cssclass="sta_WF_timerNum"/>
+        <Static id="Static28" taborder="15" left="680" top="127" width="21" height="67" cssclass="sta_WF_timerSec"/>
+        <Static id="Static29" taborder="16" left="841" top="127" width="21" height="67" cssclass="sta_WF_timerSec"/>
+        <Static id="stBar01" taborder="17" left="116" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="Static47" taborder="18" left="74" top="945" width="1695" height="60" text="" visible="false"/>
+        <Static id="stBar02" taborder="19" left="203" top="834" width="60" cssclass="sta_WF_reserveP" height="100"/>
+        <Static id="stBarValue01" taborder="20" text="34" left="116" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBarValue02" taborder="21" text="65" left="203" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBar11" taborder="22" left="325" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="stBar12" taborder="23" left="412" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="stBarValue11" taborder="24" text="34" left="325" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBarValue12" taborder="25" text="65" left="412" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBar21" taborder="26" left="535" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="stBar22" taborder="27" left="622" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="stBarValue21" taborder="28" text="34" left="535" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBarValue22" taborder="29" text="65" left="622" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBar31" taborder="30" left="744" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="stBar32" taborder="31" left="831" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="stBarValue31" taborder="32" text="34" left="744" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBarValue32" taborder="33" text="65" left="831" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBar41" taborder="34" left="954" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="stBar42" taborder="35" left="1041" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="stBarValue41" taborder="36" text="34" left="954" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBarValue42" taborder="37" text="65" left="1041" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBar51" taborder="38" left="1162" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="stBar52" taborder="39" left="1249" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="stBarValue51" taborder="40" text="34" left="1162" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBarValue52" taborder="41" text="65" left="1249" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBar61" taborder="42" left="1371" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="stBar62" taborder="43" left="1458" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="stBarValue61" taborder="44" text="34" left="1371" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBarValue62" taborder="45" text="65" left="1458" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBar71" taborder="46" left="1581" top="874" width="60" height="60" cssclass="sta_WF_waitP"/>
+        <Static id="stBar72" taborder="47" left="1668" top="834" width="60" height="100" cssclass="sta_WF_reserveP"/>
+        <Static id="stBarValue71" taborder="48" text="34" left="1581" top="834" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stBarValue72" taborder="49" text="65" left="1668" top="793" width="60" height="40" cssclass="sta_WF_graphText34CB"/>
+        <Static id="stTicket01" taborder="50" left="634" top="72" width="20" height="40" cssclass="sta_WF_timer01"/>
+        <Static id="stTicket02" taborder="51" left="649" top="72" width="20" height="40" cssclass="sta_WF_timer02"/>
+        <Static id="stTicket03" taborder="52" left="663" top="72" width="20" height="40" cssclass="sta_WF_timer03"/>
+        <Static id="stTicket04" taborder="53" left="678" top="72" width="20" height="40" cssclass="sta_WF_timer04"/>
+        <Static id="stTicket05" taborder="54" left="693" top="72" width="20" height="40" cssclass="sta_WF_timer05"/>
+        <Static id="stTicket06" taborder="55" left="708" top="72" width="20" height="40" cssclass="sta_WF_timer06"/>
+        <Static id="stTicket07" taborder="56" left="723" top="72" width="20" height="40" cssclass="sta_WF_timer07"/>
+        <Static id="stTicket08" taborder="57" left="745" top="72" width="20" height="40" cssclass="sta_WF_timer08"/>
+        <Static id="stTicket09" taborder="58" left="760" top="72" width="20" height="40" cssclass="sta_WF_timer09"/>
+        <Static id="stTicket10" taborder="59" left="772" top="72" width="20" height="40" cssclass="sta_WF_timer04"/>
+        <Static id="stTicket11" taborder="60" left="784" top="72" width="20" height="40" cssclass="sta_WF_timer11"/>
+        <Static id="stTicket12" taborder="61" left="797" top="72" width="20" height="40" cssclass="sta_WF_timer12"/>
+        <Static id="stTicket13" taborder="62" left="810" top="72" width="20" height="40" cssclass="sta_WF_timer07"/>
+        <Static id="stTicket14" taborder="63" left="826" top="72" width="20" height="40" cssclass="sta_WF_timer06"/>
+        <Static id="stTicket15" taborder="64" left="845" top="72" width="22" height="40" cssclass="sta_WF_timer13"/>
+        <Static id="stTicket16" taborder="65" left="871" top="72" width="22" height="40" cssclass="sta_WF_timer14"/>
+        <Static id="stTicket17" taborder="66" left="888" top="72" width="22" height="40" cssclass="sta_WF_timer15"/>
+        <MaskEdit id="mskRegCount" taborder="67" left="584" top="316" width="90" height="20" format="###,###,###" type="number" value="15000" visible="false"/>
+        <Div id="divGrid" taborder="68" left="1119" top="182" width="650" height="480">
+          <Layouts>
+            <Layout>
+              <Div id="divRow0" taborder="0" left="0" top="0" width="650" height="120">
+                <Layouts>
+                  <Layout>
+                    <Static id="stDoctorImg" taborder="0" left="22" top="24" width="64" height="64" cssclass="sta_cm_doc03"/>
+                    <Static id="stDoctorName" taborder="1" left="91" top="19" width="141" height="49" cssclass="sta_WF_gridGray22L" text="Dr. SAM A"/>
+                    <Static id="stClass" taborder="2" text="&#13;&#10;Family Medicine" left="91" top="72" width="157" height="39" cssclass="sta_WF_gridGraySubText" fittocontents="height"/>
+                    <Static id="stRoom" taborder="3" text="3F 302" left="241" top="19" width="137" height="49" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stRoomType" taborder="4" text="Outpatient clinic" left="251" top="72" width="137" height="39" cssclass="sta_WF_gridGraySubText" fittocontents="height"/>
+                    <Static id="stType01" taborder="5" left="413" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+                    <Static id="stType02" taborder="6" left="502" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                    <Static id="stType03" taborder="7" left="592" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="divRow1" taborder="1" left="0" top="120" width="650" height="120">
+                <Layouts>
+                  <Layout>
+                    <Static id="stDoctorImg" taborder="0" left="22" top="24" width="64" height="64" cssclass="sta_cm_doc03"/>
+                    <Static id="stDoctorName" taborder="1" text="Dr. SAM A" left="91" top="19" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stClass" taborder="2" text="&#10;Family Medicine" left="91" top="72" width="157" height="39" cssclass="sta_WF_gridGraySubText"/>
+                    <Static id="stRoom" taborder="3" text="3F 302" left="241" top="19" width="137" height="49" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stRoomType" taborder="4" text="Outpatient clinic" left="241" top="72" width="137" height="39" cssclass="sta_WF_gridGraySubText"/>
+                    <Static id="stType01" taborder="5" left="413" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+                    <Static id="stType02" taborder="6" left="502" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                    <Static id="stType03" taborder="7" left="592" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="divRow2" taborder="2" left="0" top="240" width="650" height="120">
+                <Layouts>
+                  <Layout>
+                    <Static id="stDoctorImg" taborder="0" left="22" top="24" width="64" height="64" cssclass="sta_cm_doc03"/>
+                    <Static id="stDoctorName" taborder="1" text="Dr. SAM A" left="91" top="19" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stClass" taborder="2" text="&#13;&#10;Family Medicine" left="91" top="72" width="157" height="39" cssclass="sta_WF_gridGraySubText"/>
+                    <Static id="stRoom" taborder="3" text="3F 302" left="241" top="19" width="137" height="49" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stRoomType" taborder="4" text="Outpatient clinic" left="241" top="72" width="137" height="39" cssclass="sta_WF_gridGraySubText"/>
+                    <Static id="stType01" taborder="5" left="413" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+                    <Static id="stType02" taborder="6" left="502" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                    <Static id="stType03" taborder="7" left="592" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="divRow3" taborder="3" left="0" top="360" width="650" height="120">
+                <Layouts>
+                  <Layout>
+                    <Static id="stDoctorImg" taborder="0" left="22" top="24" width="64" height="64" cssclass="sta_cm_doc03"/>
+                    <Static id="stDoctorName" taborder="1" text="Dr. SAM A" left="91" top="19" width="141" height="49" cssclass="sta_WF_gridGray22L"/>
+                    <Static id="stClass" taborder="2" text="&#13;&#10;Family Medicine" left="91" top="72" width="157" height="39" cssclass="sta_WF_gridGraySubText"/>
+                    <Static id="stRoom" taborder="3" text="3F 302" left="241" top="19" width="137" height="49" cssclass="sta_WF_gridGray22C"/>
+                    <Static id="stRoomType" taborder="4" text="Outpatient clinic" left="241" top="72" width="137" height="39" cssclass="sta_WF_gridGraySubText"/>
+                    <Static id="stType01" taborder="5" left="413" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor01"/>
+                    <Static id="stType02" taborder="6" left="502" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                    <Static id="stType03" taborder="7" left="592" top="44" width="25" height="25" cssclass="sta_WF_stateDoctor04"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Div id="divRoom02" taborder="69" left="122" top="304" width="297" height="142" visible="false">
+          <Layouts>
+            <Layout>
+              <Static id="stName" taborder="1" text="Dr. SAM A&#13;&#10;" left="114" top="13" width="154" height="43" cssclass="sta_WF_script22LB"/>
+              <Static id="stImg" taborder="1" left="20" top="32" width="74" height="74" cssclass="sta_cm_doc03"/>
+              <Static id="stStatus" taborder="2" text="During surgery" left="114" top="55" width="160" height="33" cssclass="sta_WF_graphYellow22LB"/>
+              <Static id="stBarBg" taborder="3" left="114" top="102" width="94" height="15" cssclass="sta_WF_graphTime"/>
+              <Static id="stBarValue" taborder="4" text="0m" left="211" top="94" width="80" height="30" cssclass="sta_WF_script20L"/>
+              <Static id="stBar" taborder="5" left="114" top="102" width="0" height="15" cssclass="sta_WF_graphTime_On"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Static id="stMessage02" taborder="70" text="WAITING" left="132" top="306" width="281" height="132" cssclass="sta_WF_script22CB"/>
+        <Div id="divRoom01" taborder="71" left="122" top="96" width="297" height="142" visible="false">
+          <Layouts>
+            <Layout>
+              <Static id="stImg" taborder="0" left="20" top="32" width="74" height="74" cssclass="sta_cm_doc03"/>
+              <Static id="stName" taborder="1" text="Dr. SAM A" left="114" top="13" width="154" height="43" cssclass="sta_WF_script22LB"/>
+              <Static id="stStatus" taborder="2" text="During surgery" left="114" top="55" width="160" height="33" cssclass="sta_WF_graphYellow22LB"/>
+              <Static id="stBarBg" taborder="3" left="114" top="102" width="94" height="15" cssclass="sta_WF_graphTime"/>
+              <Static id="stBarValue" taborder="4" text="0m" left="211" top="94" width="80" height="30" cssclass="sta_WF_script20L"/>
+              <Static id="stBar" taborder="5" left="114" top="102" width="0" height="15" cssclass="sta_WF_graphTime_On"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Div id="divRoom03" taborder="72" left="122" top="510" width="297" height="142" visible="false">
+          <Layouts>
+            <Layout>
+              <Static id="stName" taborder="1" text="Dr. SAM A" left="114" top="13" width="154" height="43" cssclass="sta_WF_script22LB"/>
+              <Static id="stImg" taborder="1" left="20" top="32" width="74" height="74" cssclass="sta_cm_doc03"/>
+              <Static id="stStatus" taborder="2" text="During surgery" left="114" top="55" width="160" height="33" cssclass="sta_WF_graphYellow22LB"/>
+              <Static id="stBarBg" taborder="3" left="114" top="102" width="94" height="15" cssclass="sta_WF_graphTime"/>
+              <Static id="stBarValue" taborder="4" text="0m" left="211" top="94" width="80" height="30" cssclass="sta_WF_script20L"/>
+              <Static id="stBar" taborder="5" left="114" top="102" width="0" height="15" cssclass="sta_WF_graphTime_On"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Static id="stMessage01" taborder="73" text="WAITING" left="132" top="105" width="281" height="132" cssclass="sta_WF_script22CB"/>
+        <Static id="stMessage03" taborder="74" text="WAITING" left="132" top="520" width="281" height="132" cssclass="sta_WF_script22CB"/>
+        <Static id="Static01" taborder="75" text="Surgery Room 1" left="147" top="54" width="100" height="37" cssclass="sta_WF_graphSurgeryRoomTextCB"/>
+        <Static id="Static01_00" taborder="76" text="Surgery Room 2" left="147" top="262" width="100" height="37" cssclass="sta_WF_graphSurgeryRoomTextCB"/>
+        <Static id="Static01_00_00" taborder="77" text="Surgery Room 3" left="145" top="469" width="100" height="37" cssclass="sta_WF_graphSurgeryRoomTextCB"/>
+        <Static id="Static04" taborder="78" text="Today's Hospital Visitors" left="514" top="263" width="240" height="39" cssclass="sta_WF_script20CB"/>
+        <Static id="Static06" taborder="79" text="Number of &#13;&#10;hospitalized &#13;&#10;patients" left="503" top="458" width="90" height="81" cssclass="sta_WF_hospitalAreaText"/>
+        <Static id="Static06_00" taborder="80" text="Number of &#13;&#10;discharged &#13;&#10;patients" left="824" top="384" width="90" height="81" cssclass="sta_WF_hospitalAreaText"/>
+        <Static id="Static06_00_00" taborder="81" text="Waiting for &#13;&#10;outpatient" left="762" top="548" width="90" height="81" cssclass="sta_WF_hospitalAreaText"/>
+        <Static id="Static08" taborder="82" text="Medical Staff" left="1120" top="121" width="238" height="59" cssclass="sta_WF_script20CB"/>
+        <Static id="Static08_00" taborder="83" text="Office" left="1360" top="122" width="138" height="59" cssclass="sta_WF_script20CB"/>
+        <Static id="Static08_00_00" taborder="84" text="On duty" left="1499" top="122" width="89" height="59" cssclass="sta_WF_script20CB"/>
+        <Static id="Static08_00_00_00" taborder="85" text="On duty &#13;&#10;trips" left="1589" top="122" width="88" height="59" cssclass="sta_WF_script20CB"/>
+        <Static id="Static08_00_00_00_00" taborder="86" text="Closed" left="1678" top="122" width="91" height="59" cssclass="sta_WF_script20CB"/>
+        <Static id="Static09" taborder="87" text="Status by department" left="69" top="707" width="228" height="37" cssclass="sta_WF_script20CB"/>
+        <Static id="Static10" taborder="88" text="Waiting people" left="1417" top="692" width="132" height="44" cssclass="sta_WF_script18CB"/>
+        <Static id="Static10_00" taborder="89" text="Reservation" left="1594" top="690" width="101" height="44" cssclass="sta_WF_script18CB"/>
+        <Div id="divDept01" taborder="90" left="74" top="945" width="1695" height="60" text="" formscrolltype="none">
+          <Layouts>
+            <Layout>
+              <Div id="Div00" taborder="1" left="15" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical01.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Family Medicine" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_00" taborder="1" left="225" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical02.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Health Promotion" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_01" taborder="2" left="433" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical03.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Endocrinology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_02" taborder="3" left="643" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical04.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Medicine" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_03" taborder="4" left="851" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical05.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Colon Surgery" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_04" taborder="5" left="1062" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical06.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Rheumatology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_05" taborder="6" left="1270" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical07.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Anesthesia /&#13;&#10;Pain Medicine" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_06" taborder="7" left="1479" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical08.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Radiation Oncology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Div id="divDept02" taborder="91" left="74" top="1076" width="1695" height="60" text="" formscrolltype="none" visible="false">
+          <Layouts>
+            <Layout>
+              <Div id="Div00" taborder="1" left="15" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical09.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Pathology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_00" taborder="1" left="225" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical10.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Urology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_01" taborder="2" left="433" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical11.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Obstetrics /&#13;&#10;Gynecology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_02" taborder="3" left="643" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical12.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Plastic Surgery" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_03" taborder="4" left="851" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical13.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Digestive &#13;&#10;Internal Medicine" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_04" taborder="5" left="1062" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical14.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Neurosurgery" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_05" taborder="6" left="1270" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical15.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Cardiology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_06" taborder="7" left="1479" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical16.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Ophthalmology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Div id="divDept03" taborder="92" left="74" top="1136" width="1695" height="60" text="" formscrolltype="none" visible="false">
+          <Layouts>
+            <Layout>
+              <Div id="Div00" taborder="1" left="15" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical17.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Emergency Medicine" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_00" taborder="1" left="225" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical18.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Otorhinolaryngology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_01" taborder="2" left="433" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical19.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Surgery" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_02" taborder="3" left="643" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical20.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Psychiatry" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_03" taborder="4" left="851" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical21.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Orthopedics" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_04" taborder="5" left="1062" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical22.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Dentist" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_05" taborder="6" left="1270" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical23.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Dermatology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Div id="Div00_06" taborder="7" left="1479" top="-3" width="210" height="60" formscrolltype="none">
+                <Layouts>
+                  <Layout>
+                    <ImageViewer id="ImageViewer00" taborder="0" left="16" top="8" height="44" background="url('imagerc::img_WF_graphWaitWrapIcon_44.png') no-repeat center transparent border-box" image="url('imagerc::img_WF_medical24.png')" stretch="fit" border="0px none" width="43"/>
+                    <Static id="Static00" taborder="1" text="Hematology" left="76" top="3" width="120" height="55" cssclass="sta_WF_script12CB"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+            </Layout>
+          </Layouts>
+        </Div>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[this.fv_timerIdx = 0;
+this.fv_timerMax = 50;
+
+this.fv_StringIdx = 0;
+this.fv_nGap = 1;
+this.fv_nGap2 = 1;
+this.fv_nClassCount = 0;
+this.fv_nClassCount2 = 0;
+
+this.fv_max=false;
+this.fv_objDate;
+
+this.frmPart2_onload = function(obj:nexacro.Form,e:nexacro.LoadEventInfo)
+{
+	this.fv_objDate = new Date("2019/10/01 13:00:00");
+	
+	this.setTimer(1, 1000);
+};
+
+this.frmPart2_ontimer = function(obj:nexacro.Form,e:nexacro.TimerEventInfo)
+{
+	if(e.timerid==1)
+	{
+		var i;
+		var sHH;
+		var sMM;
+		var sSS;
+		var objDate = new Date();
+		var nRandomValue;
+		
+		this.fv_StringIdx++;
+				
+		if(this.fv_StringIdx==18)this.fv_StringIdx = 1;
+		
+		this.fv_nGap++;
+		
+		if(this.fv_nGap==60)
+		{
+			this.fv_nGap = 1;
+			this.stInCount.set_text(nexacro.toNumber(this.stInCount.text)+(nexacro.round(Math.random()*2-1)));
+			
+			this.stOutCount.set_text(nexacro.toNumber(this.stOutCount.text)+(nexacro.round(Math.random()*2-1)));
+		}
+		
+		nRandomValue = (nexacro.round(Math.random()*2-1));//nexacro.round(Math.random()*100);
+		
+		this.stWaitCount.set_text(nexacro.toNumber(this.stWaitCount.text)+nRandomValue);
+		
+		if(nRandomValue==1)
+		{
+			this.mskRegCount.set_value(nexacro.toNumber(this.mskRegCount.value)+1);
+			this.stRegCount.set_text(this.mskRegCount.text);
+		}	
+			
+		sHH = objDate.getHours().toString().padLeft(2, "0");
+		sMM = objDate.getMinutes().toString().padLeft(2, "0");
+		sSS = objDate.getSeconds().toString().padLeft(2, "0");
+		
+		this.stHH1.set_text(sHH.substr(0, 1));
+		this.stHH2.set_text(sHH.substr(1, 1));
+		
+		this.stMM1.set_text(sMM.substr(0, 1));
+		this.stMM2.set_text(sMM.substr(1, 1));
+		
+		this.stSS1.set_text(sSS.substr(0, 1));
+		this.stSS2.set_text(sSS.substr(1, 1));
+		
+		for(i=1;i<=17;i++)
+		{
+			if(i<=this.fv_StringIdx)this.components["stTicket"+(i.toString().padLeft(2, "0"))].set_enable(false);
+			else this.components["stTicket"+(i.toString().padLeft(2, "0"))].set_enable(true);
+		}
+		
+		this.fv_nGap2++;
+		
+		if(this.fv_nGap2==5)
+		{
+			this.fn_changeClass();
+			this.fv_nGap2 = 0;
+		}
+		this.fn_changeRoom();
+	}else if(e.timerid==2)
+	{
+		var i;
+		
+		var nValue;
+		var nValue2;
+		var nMaxValue;
+		var nMaxValue2;
+		var nLeft;
+		var nLeft2;
+		var nLeft3;
+		var nLeft4;
+		var nTop;
+		var nTop2;
+		var nWidth = 60;
+		var nHeight;
+		var nHeight2;
+		
+		this.fv_timerIdx++;
+		
+		for(i=0;i<8;i++)
+		{
+			nMaxValue = this.components["stBar"+i+"1"].barvalue;
+			nMaxValue2 = this.components["stBar"+i+"2"].barvalue;
+			
+			nValue = nexacro.round(this.fn_linearTween(this.fv_timerIdx, 0, nMaxValue, this.fv_timerMax));
+			nValue2 = nexacro.round(this.fn_linearTween(this.fv_timerIdx, 0, nMaxValue2, this.fv_timerMax));
+			
+			nHeight = nValue * 1.3;
+			nHeight2 = nValue2 * 1.3;
+			
+			nTop = 804 + (130-nHeight);
+			nTop2 = 804 + (130-nHeight2);
+			
+			nLeft = this.components["stBar"+i+"1"].getOffsetLeft();
+			nLeft2 = this.components["stBar"+i+"2"].getOffsetLeft();
+			
+			this.components["stBar"+i+"1"].move(nLeft, nTop, nWidth, nHeight);
+			this.components["stBar"+i+"2"].move(nLeft2, nTop2, nWidth, nHeight2);
+			
+			this.components["stBarValue"+i+"1"].move(nLeft, nTop-40);
+			this.components["stBarValue"+i+"2"].move(nLeft2, nTop2-40);
+			
+			this.components["stBarValue"+i+"1"].set_text(nValue)
+			this.components["stBarValue"+i+"2"].set_text(nValue2)
+		}
+		
+		nLeft = nexacro.round(this.fn_moveAni(this.fv_timerIdx, -650, 650, this.fv_timerMax));
+		nLeft2 = nexacro.round(this.fn_moveAni(this.fv_timerIdx-10, -700, 700, this.fv_timerMax-10));
+		nLeft3 = nexacro.round(this.fn_moveAni(this.fv_timerIdx-20, -750, 750, this.fv_timerMax-20));
+		nLeft4 = nexacro.round(this.fn_moveAni(this.fv_timerIdx-30, -800, 800, this.fv_timerMax-30));
+		
+		this.divGrid.form.components["divRow0"].setOffsetLeft(nLeft);
+		this.divGrid.form.components["divRow1"].setOffsetLeft(nLeft2);
+		this.divGrid.form.components["divRow2"].setOffsetLeft(nLeft3);
+		this.divGrid.form.components["divRow3"].setOffsetLeft(nLeft4);
+		
+		if(this.fv_timerIdx==this.fv_timerMax)
+		{
+			this.fv_timerIdx = 0;
+			this.killTimer(2);
+		}
+	}
+};
+
+this.fn_changeClass = function()
+{
+	var i = 0;
+	this.fv_nClassCount++;
+	this.fv_nClassCount2++;
+	
+	var nValue1;
+	var nValue2;
+	
+	var nRowIdx;
+	var sName;
+	var sClassName;
+	var sImage;
+	var sRoom;
+	var sRoomType;
+	var sType01;
+	var sType02;
+	var sType03;
+	
+	if(this.fv_nClassCount==3)this.fv_nClassCount=0;
+	
+	//this.Static47.set_cssclass("sta_WF_graphWait0"+(this.fv_nClassCount+1)+"_new");
+	
+	switch((this.fv_nClassCount+1)) {
+		case 1: 
+			this.divDept01.set_visible(true);
+			this.divDept02.set_visible(false);
+			this.divDept03.set_visible(false);
+			break;
+		case 2:
+			this.divDept02.move(74,945);
+			this.divDept02.set_visible(true);
+			this.divDept01.set_visible(false);
+			this.divDept03.set_visible(false);
+			break;
+		case 3:
+			this.divDept03.move(74,945);
+			this.divDept03.set_visible(true);
+			this.divDept01.set_visible(false);
+			this.divDept02.set_visible(false);
+			break;
+		default:
+			this.divDept01.set_visible(true);
+			this.divDept02.set_visible(false);
+			this.divDept03.set_visible(false);
+	}
+	
+	for(i=0;i<8;i++)
+	{
+		nValue1 = this.dsReg.getColumn(i+(this.fv_nClassCount*8), "value1");
+		nValue2 = this.dsReg.getColumn(i+(this.fv_nClassCount*8), "value2");
+		
+		this.components["stBar"+i+"1"].barvalue = nValue1;
+		this.components["stBar"+i+"2"].barvalue = nValue2;
+	}
+	
+	if(this.fv_nClassCount2==23)this.fv_nClassCount2 = 0;
+	
+	for(i=0;i<4;i++)
+	{
+		nRowIdx = (i)+(this.fv_nClassCount2*4);
+		sName = this.dsDoctorList.getColumn(nRowIdx, "Name");
+		sClassName = this.dsDoctorList.getColumn(nRowIdx, "ClassName");
+		sImage = this.dsDoctorList.getColumn(nRowIdx, "Image");
+		sRoom = this.dsDoctorList.getColumn(nRowIdx, "Room");
+		sRoomType = this.dsDoctorList.getColumn(nRowIdx, "RoomType");
+		sType01 = this.dsDoctorList.getColumn(nRowIdx, "Type01");
+		sType02 = this.dsDoctorList.getColumn(nRowIdx, "Type02");
+		sType03 = this.dsDoctorList.getColumn(nRowIdx, "Type03");
+		// set divGrid Row
+		this.divGrid.form.components["divRow"+i].form.stDoctorImg.set_cssclass(sImage);
+		this.divGrid.form.components["divRow"+i].form.stDoctorName.set_text("Dr. "+sName);
+		this.divGrid.form.components["divRow"+i].form.stClass.set_text(sClassName);
+		this.divGrid.form.components["divRow"+i].form.stRoom.set_text(sRoom);
+		this.divGrid.form.components["divRow"+i].form.stRoomType.set_text(sRoomType);
+		this.divGrid.form.components["divRow"+i].form.stType01.set_cssclass(sType01);
+		this.divGrid.form.components["divRow"+i].form.stType02.set_cssclass(sType02);
+		this.divGrid.form.components["divRow"+i].form.stType03.set_cssclass(sType03);
+		
+		this.divGrid.form.components["divRow"+i].setOffsetLeft(-650);
+	}
+	
+	this.setTimer(2, 10);
+}
+
+this.fn_changeRoom = function()
+{
+	this.fv_objDate.addMinutes(1);
+	
+	//trace(this.fv_objDate.getFullYear());
+	//trace(this.fv_objDate.getMonth());
+	//trace(this.fv_objDate.getDate());
+	//trace(this.fv_objDate.getMinutes());
+	//trace(this.fv_objDate.getSeconds());
+	var sTime = this.fv_objDate.getHours().toString().padLeft(2, "0")+this.fv_objDate.getMinutes().toString().padLeft(2, "0");
+	var sTimeString = this.fv_objDate.getHours().toString().padLeft(2, "0")+":"+this.fv_objDate.getMinutes().toString().padLeft(2, "0");
+	
+	var nRow = this.dsRoom.findRowExpr("nexacro.toNumber(stime)<="+nexacro.toNumber(sTime)+"&&nexacro.toNumber(etime)>"+nexacro.toNumber(sTime));
+	
+	if(nRow==-1)
+	{
+		this.fv_objDate = new Date("2017/09/27 13:00:00");
+		sTime = this.fv_objDate.getHours().toString().padLeft(2, "0")+this.fv_objDate.getMinutes().toString().padLeft(2, "0");
+		sTimeString = this.fv_objDate.getHours().toString().padLeft(2, "0")+":"+this.fv_objDate.getMinutes().toString().padLeft(2, "0");
+		nRow = this.dsRoom.findRowExpr("nexacro.toNumber(stime)<="+nexacro.toNumber(sTime)+"&&nexacro.toNumber(etime)>"+nexacro.toNumber(sTime));
+	}
+	
+	var sSec01 = this.dsRoom.getColumn(nRow, "sec01");
+	var sSec02 = this.dsRoom.getColumn(nRow, "sec02");
+	var sSec03 = this.dsRoom.getColumn(nRow, "sec03");
+	var sSec01Img = this.dsRoom.getColumn(nRow, "sec01img");
+	var sSec02Img = this.dsRoom.getColumn(nRow, "sec02img");
+	var sSec03Img = this.dsRoom.getColumn(nRow, "sec03img");
+	var sMM = this.dsRoom.getColumn(nRow, "mm");
+	var sETime = this.dsRoom.getColumn(nRow, "etime").toString().substr(0, 2)+":"+this.dsRoom.getColumn(nRow, "etime").toString().substr(2, 2);
+	
+	var sDiffTime = new Date("2017/09/27 "+sETime+":00") - new Date("2017/09/27 "+sTimeString+":00") ;
+		 sDiffTime = sDiffTime / 1000/60;
+	
+	var nWidth;
+	
+	if(sSec01=="Clean Up"||sSec01=="Close"||sSec01=="Break Time")
+	{
+		this.divRoom01.set_visible(false);
+		this.divRoom02.set_visible(false);
+		this.divRoom03.set_visible(false);
+		this.stMessage01.set_visible(true);
+		this.stMessage02.set_visible(true);
+		this.stMessage03.set_visible(true);
+		
+	}else
+	{
+		this.divRoom01.set_visible(true);
+		this.divRoom02.set_visible(true);
+		this.divRoom03.set_visible(true);
+		this.stMessage01.set_visible(false);
+		this.stMessage02.set_visible(false);
+		this.stMessage03.set_visible(false);
+		
+		this.divRoom01.form.stName.set_text(sSec01);
+		this.divRoom02.form.stName.set_text(sSec02);
+		this.divRoom03.form.stName.set_text(sSec03);
+		
+		this.divRoom01.form.stImg.set_cssclass(sSec01Img);
+		this.divRoom02.form.stImg.set_cssclass(sSec02Img);
+		this.divRoom03.form.stImg.set_cssclass(sSec03Img);
+		
+		this.divRoom01.form.stBarValue.set_text(sDiffTime+"m");
+		this.divRoom02.form.stBarValue.set_text(sDiffTime+"m");
+		this.divRoom03.form.stBarValue.set_text(sDiffTime+"m");
+		
+		nWidth = sDiffTime*(this.divRoom01.form.stBarBg.getOffsetWidth()/sMM);
+		
+		this.divRoom01.form.stBar.setOffsetWidth(nWidth);
+		this.divRoom02.form.stBar.setOffsetWidth(nWidth);
+		this.divRoom03.form.stBar.setOffsetWidth(nWidth);
+		
+	}	
+}
+
+this.fn_moveAni = function (t, b, c, d) 
+{
+	t /= d/2;
+	if (t < 1) return c/2*t*t*t + b;
+	t -= 2;
+	return c/2*(t*t*t + 2) + b;
+};
+
+this.fn_linearTween = function (t, b, c, d) 
+{
+	return c*t/d + b;
+}
+
+this.frmPart2_onkeydown = function(obj:nexacro.Form,e:nexacro.KeyEventInfo)
+{
+// 	if(e.keycode==123)
+// 	{
+// 		if(this.fv_max==false)
+// 		{
+// 			this.fv_max = true;
+// 			nexacro.getApplication().mainframe.move(1920, 0, 1920, 1080);
+// 			nexacro.getApplication().mainframe.set_showtitlebar(false);
+// 			var opstatus = nexacro.getApplication().mainframe.openstatus;
+// 			
+// 			if (opstatus=="maximize")
+// 			{
+// 				this.set_scrollbartype("none");
+// 			}
+// 		}else
+// 		{
+// 			this.fv_max = false;
+// 			nexacro.getApplication().mainframe.set_showtitlebar(true);
+// 			this.set_scrollbartype("auto");
+// 		}
+// 	}
+};
+]]></Script>
+    <Objects>
+      <Dataset id="dsReg">
+        <ColumnInfo>
+          <Column id="id" type="STRING" size="256"/>
+          <Column id="value1" type="STRING" size="256"/>
+          <Column id="value2" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="id">01</Col>
+            <Col id="value1">25</Col>
+            <Col id="value2">48</Col>
+          </Row>
+          <Row>
+            <Col id="id">02</Col>
+            <Col id="value1">54</Col>
+            <Col id="value2">68</Col>
+          </Row>
+          <Row>
+            <Col id="id">03</Col>
+            <Col id="value1">24</Col>
+            <Col id="value2">47</Col>
+          </Row>
+          <Row>
+            <Col id="id">04</Col>
+            <Col id="value1">23</Col>
+            <Col id="value2">68</Col>
+          </Row>
+          <Row>
+            <Col id="id">05</Col>
+            <Col id="value1">57</Col>
+            <Col id="value2">87</Col>
+          </Row>
+          <Row>
+            <Col id="id">06</Col>
+            <Col id="value1">11</Col>
+            <Col id="value2">87</Col>
+          </Row>
+          <Row>
+            <Col id="id">07</Col>
+            <Col id="value1">58</Col>
+            <Col id="value2">59</Col>
+          </Row>
+          <Row>
+            <Col id="id">08</Col>
+            <Col id="value1">24</Col>
+            <Col id="value2">87</Col>
+          </Row>
+          <Row>
+            <Col id="id">09</Col>
+            <Col id="value1">18</Col>
+            <Col id="value2">97</Col>
+          </Row>
+          <Row>
+            <Col id="id">10</Col>
+            <Col id="value1">12</Col>
+            <Col id="value2">87</Col>
+          </Row>
+          <Row>
+            <Col id="id">11</Col>
+            <Col id="value1">21</Col>
+            <Col id="value2">67</Col>
+          </Row>
+          <Row>
+            <Col id="id">12</Col>
+            <Col id="value1">15</Col>
+            <Col id="value2">87</Col>
+          </Row>
+          <Row>
+            <Col id="id">13</Col>
+            <Col id="value1">31</Col>
+            <Col id="value2">98</Col>
+          </Row>
+          <Row>
+            <Col id="id">14</Col>
+            <Col id="value1">21</Col>
+            <Col id="value2">68</Col>
+          </Row>
+          <Row>
+            <Col id="id">15</Col>
+            <Col id="value1">23</Col>
+            <Col id="value2">47</Col>
+          </Row>
+          <Row>
+            <Col id="id">16</Col>
+            <Col id="value1">35</Col>
+            <Col id="value2">58</Col>
+          </Row>
+          <Row>
+            <Col id="id">17</Col>
+            <Col id="value1">21</Col>
+            <Col id="value2">69</Col>
+          </Row>
+          <Row>
+            <Col id="id">18</Col>
+            <Col id="value1">25</Col>
+            <Col id="value2">58</Col>
+          </Row>
+          <Row>
+            <Col id="id">19</Col>
+            <Col id="value1">14</Col>
+            <Col id="value2">74</Col>
+          </Row>
+          <Row>
+            <Col id="id">20</Col>
+            <Col id="value1">18</Col>
+            <Col id="value2">98</Col>
+          </Row>
+          <Row>
+            <Col id="id">21</Col>
+            <Col id="value1">18</Col>
+            <Col id="value2">58</Col>
+          </Row>
+          <Row>
+            <Col id="id">22</Col>
+            <Col id="value1">35</Col>
+            <Col id="value2">47</Col>
+          </Row>
+          <Row>
+            <Col id="id">23</Col>
+            <Col id="value1">28</Col>
+            <Col id="value2">68</Col>
+          </Row>
+          <Row>
+            <Col id="id">24</Col>
+            <Col id="value1">21</Col>
+            <Col id="value2">29</Col>
+          </Row>
+        </Rows>
+      </Dataset>
+      <Dataset id="dsDoctorList">
+        <ColumnInfo>
+          <Column id="Name" type="STRING" size="256"/>
+          <Column id="ClassName" type="STRING" size="256"/>
+          <Column id="Image" type="STRING" size="256"/>
+          <Column id="Room" type="STRING" size="256"/>
+          <Column id="RoomType" type="STRING" size="256"/>
+          <Column id="Type01" type="STRING" size="256"/>
+          <Column id="Type02" type="STRING" size="256"/>
+          <Column id="Type03" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="Name">SAM A</Col>
+            <Col id="ClassName">Family Medicine</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1F Room 101</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM B</Col>
+            <Col id="ClassName">Family Medicine</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attending Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM C</Col>
+            <Col id="ClassName">Family Medicine</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">1F Room 102</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM D</Col>
+            <Col id="ClassName">Health Promotion</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1F Room 103</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM E</Col>
+            <Col id="ClassName">Endocrinology</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM F</Col>
+            <Col id="ClassName">Endocrinology</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1F Room 104</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM G</Col>
+            <Col id="ClassName">Endocrinology</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Japanese Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM H</Col>
+            <Col id="ClassName">Endocrinology</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1F Room 105</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM I</Col>
+            <Col id="ClassName">medicine</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1F Room 106</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM J</Col>
+            <Col id="ClassName">medicine</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM K</Col>
+            <Col id="ClassName">medicine</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1F Room 107</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM L</Col>
+            <Col id="ClassName">medicine</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM M</Col>
+            <Col id="ClassName">Colon Surgery</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Russia Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM A</Col>
+            <Col id="ClassName">Colon Surgery</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1F Room 108</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM B</Col>
+            <Col id="ClassName">Colon Surgery</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nex Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM C</Col>
+            <Col id="ClassName">Colon Surgery</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1F Room 109</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM D</Col>
+            <Col id="ClassName">Rheumatology</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM E</Col>
+            <Col id="ClassName">Rheumatology</Col>
+            <Col id="Image">sta_cm_doc05</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">1F Room 110</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM F</Col>
+            <Col id="ClassName">Rheumatology</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attending Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM G</Col>
+            <Col id="ClassName">Rheumatology</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd Floor Room 201</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM H</Col>
+            <Col id="ClassName">Anesthesia and Pain Medicine</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Japanese Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM I</Col>
+            <Col id="ClassName">Anesthesia and Pain Medicine</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM J</Col>
+            <Col id="ClassName">Anesthesia and Pain Medicine</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd floor, Room 202</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM K</Col>
+            <Col id="ClassName">Anesthesia and Pain Medicine</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM L</Col>
+            <Col id="ClassName">Radiation Oncology</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd Floor Room 203</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM M</Col>
+            <Col id="ClassName">Radiation Oncology</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd floor, Room 204</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM A</Col>
+            <Col id="ClassName">Radiation Oncology</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Russia Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM B</Col>
+            <Col id="ClassName">Radiation Oncology</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM C</Col>
+            <Col id="ClassName">Pathology</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd Floor Room 205</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM D</Col>
+            <Col id="ClassName">Pathology</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attending Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM E</Col>
+            <Col id="ClassName">Pathology</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd floor, Room 206</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM F</Col>
+            <Col id="ClassName">Pathology</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd floor, Room 207</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM G</Col>
+            <Col id="ClassName">Urology</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Japanese Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM H</Col>
+            <Col id="ClassName">Urology</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd floor, Room 208</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM I</Col>
+            <Col id="ClassName">Urology</Col>
+            <Col id="Image">sta_cm_doc05</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd floor, Room 209</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM J</Col>
+            <Col id="ClassName">Urology</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM K</Col>
+            <Col id="ClassName">Obstetrics and gynecology</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Russia Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM L</Col>
+            <Col id="ClassName">Obstetrics and gynecology</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">2nd Floor Room 210</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM M</Col>
+            <Col id="ClassName">Obstetrics and gynecology</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM A</Col>
+            <Col id="ClassName">Obstetrics and gynecology</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 301</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM B</Col>
+            <Col id="ClassName">Plastic Surgery</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM C</Col>
+            <Col id="ClassName">Plastic Surgery</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 302</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM D</Col>
+            <Col id="ClassName">Plastic Surgery</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM E</Col>
+            <Col id="ClassName">Plastic Surgery</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 303</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM F</Col>
+            <Col id="ClassName">Digestive Internal Medicine</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 304</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM G</Col>
+            <Col id="ClassName">Digestive Internal Medicine</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 305</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM H</Col>
+            <Col id="ClassName">Digestive Internal Medicine</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Japanese Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM I</Col>
+            <Col id="ClassName">Digestive Internal Medicine</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attending Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM J</Col>
+            <Col id="ClassName">Neurology</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Russia Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM K</Col>
+            <Col id="ClassName">Neurology</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 306</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM L</Col>
+            <Col id="ClassName">Neurology</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 307</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM M</Col>
+            <Col id="ClassName">Neurology</Col>
+            <Col id="Image">sta_cm_doc05</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 308</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM A</Col>
+            <Col id="ClassName">Cardiology</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 309</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM B</Col>
+            <Col id="ClassName">Cardiology</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM C</Col>
+            <Col id="ClassName">Cardiology</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">3F Room 310</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM D</Col>
+            <Col id="ClassName">Cardiology</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM E</Col>
+            <Col id="ClassName">Ophthalmology</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4th floor, Room 401</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM F</Col>
+            <Col id="ClassName">Ophthalmology</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4th floor, Room 402</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM G</Col>
+            <Col id="ClassName">Ophthalmology</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attending Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM H</Col>
+            <Col id="ClassName">Ophthalmology</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM I</Col>
+            <Col id="ClassName">Emergency Medicine</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM J</Col>
+            <Col id="ClassName">Emergency Medicine</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4F Room 403</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM K</Col>
+            <Col id="ClassName">Emergency Medicine</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4th floor, Room 404</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM L</Col>
+            <Col id="ClassName">Emergency Medicine</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM M</Col>
+            <Col id="ClassName">Otorhinolaryngology</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4th floor, Room 405</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM A</Col>
+            <Col id="ClassName">Otorhinolaryngology</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Russia Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM B</Col>
+            <Col id="ClassName">Otorhinolaryngology</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM C</Col>
+            <Col id="ClassName">Otorhinolaryngology</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">4th floor, Room 406</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM D</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Room">4th floor, Room 407</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Surgery</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM E</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Surgery</Col>
+            <Col id="Room">Russia Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM F</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Room">4th floor, Room 408</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Surgery</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM G</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Room">4th floor, Room 409</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Surgery</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM H</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Psychiatry</Col>
+            <Col id="Room">Japanese Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM I</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Psychiatry</Col>
+            <Col id="Room">4th floor, Room 410</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM J</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="ClassName">Psychiatry</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM K</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Psychiatry</Col>
+            <Col id="Room">5F Room 501</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM L</Col>
+            <Col id="Image">sta_cm_doc10</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Orthopedics</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM M</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Orthopedics</Col>
+            <Col id="Room">5F Room 502</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM A</Col>
+            <Col id="Image">sta_cm_doc11</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Orthopedics</Col>
+            <Col id="Room">Room 5, Room 503</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM B</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Orthopedics</Col>
+            <Col id="RoomType"/>
+            <Col id="Room">Attending Society</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM C</Col>
+            <Col id="Image">sta_cm_doc12</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Dentist</Col>
+            <Col id="Room">5F Room 504</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM D</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="ClassName">Dentist</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM E</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Dentist</Col>
+            <Col id="Room">Japanese Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM F</Col>
+            <Col id="Image">sta_cm_doc01</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Dentist</Col>
+            <Col id="Room">5F Room 505</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM G</Col>
+            <Col id="Image">sta_cm_doc03</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Dermatology</Col>
+            <Col id="RoomType"/>
+            <Col id="Room">Attendance at Nexa Society</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM H</Col>
+            <Col id="Image">sta_cm_doc02</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Dermatology</Col>
+            <Col id="Room">Room 5, Room 506</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM I</Col>
+            <Col id="Image">sta_cm_doc04</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="ClassName">Dermatology</Col>
+            <Col id="Room">Closed</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM J</Col>
+            <Col id="Image">sta_cm_doc05</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Dermatology</Col>
+            <Col id="Room">Room 5, Room 507</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM K</Col>
+            <Col id="Image">sta_cm_doc07</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="ClassName">Hematology</Col>
+            <Col id="Room">Attendance at Nexa Society</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">SAM L</Col>
+            <Col id="ClassName">Hematology</Col>
+            <Col id="Image">sta_cm_doc06</Col>
+            <Col id="Type01">sta_WF_stateDoctor01</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Room 5, Room 508</Col>
+            <Col id="RoomType">Outpatient clinic</Col>
+          </Row>
+          <Row>
+            <Col id="Name">SAM M</Col>
+            <Col id="ClassName">Hematology</Col>
+            <Col id="Image">sta_cm_doc09</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor02</Col>
+            <Col id="Type03">sta_WF_stateDoctor04</Col>
+            <Col id="Room">Japanese Seminar</Col>
+            <Col id="RoomType"/>
+          </Row>
+          <Row>
+            <Col id="Name">나성진</Col>
+            <Col id="ClassName">혈액내과</Col>
+            <Col id="Image">sta_cm_doc08</Col>
+            <Col id="Type01">sta_WF_stateDoctor04</Col>
+            <Col id="Type02">sta_WF_stateDoctor04</Col>
+            <Col id="Type03">sta_WF_stateDoctor03</Col>
+            <Col id="Room">휴진</Col>
+            <Col id="RoomType"/>
+          </Row>
+        </Rows>
+      </Dataset>
+      <Dataset id="dsRoom">
+        <ColumnInfo>
+          <Column id="stime" type="STRING" size="256"/>
+          <Column id="etime" type="STRING" size="256"/>
+          <Column id="mm" type="STRING" size="256"/>
+          <Column id="sec01" type="STRING" size="256"/>
+          <Column id="sec01img" type="STRING" size="256"/>
+          <Column id="sec02" type="STRING" size="256"/>
+          <Column id="sec02img" type="STRING" size="256"/>
+          <Column id="sec03" type="STRING" size="256"/>
+          <Column id="sec03img" type="STRING" size="256"/>
+        </ColumnInfo>
+        <Rows>
+          <Row>
+            <Col id="stime">1300</Col>
+            <Col id="etime">1330</Col>
+            <Col id="sec01">Clean Up</Col>
+            <Col id="sec02">Clean Up</Col>
+            <Col id="sec03">Clean Up</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1330</Col>
+            <Col id="etime">1335</Col>
+            <Col id="sec01">Dr. SAM A</Col>
+            <Col id="sec02">Dr. SAM A</Col>
+            <Col id="sec03">Dr. SAM A</Col>
+            <Col id="sec01img">sta_cm_doc01</Col>
+            <Col id="sec02img">sta_cm_doc01</Col>
+            <Col id="sec03img">sta_cm_doc01</Col>
+            <Col id="mm">5</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1335</Col>
+            <Col id="etime">1355</Col>
+            <Col id="sec01">Dr. SAM B</Col>
+            <Col id="sec02">Dr. SAM A</Col>
+            <Col id="sec03">Dr. SAM A</Col>
+            <Col id="sec01img">sta_cm_doc06</Col>
+            <Col id="sec02img">sta_cm_doc06</Col>
+            <Col id="sec03img">sta_cm_doc06</Col>
+            <Col id="mm">20</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1355</Col>
+            <Col id="etime">1425</Col>
+            <Col id="sec01">Dr. SAM C</Col>
+            <Col id="sec02">Dr. SAM A</Col>
+            <Col id="sec03">Dr. SAM A</Col>
+            <Col id="sec01img">sta_cm_doc01</Col>
+            <Col id="sec03img">sta_cm_doc01</Col>
+            <Col id="sec02img">sta_cm_doc01</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1425</Col>
+            <Col id="etime">1455</Col>
+            <Col id="sec01">Dr. SAM D</Col>
+            <Col id="sec02">Dr. SAM A</Col>
+            <Col id="sec03">Dr. SAM A</Col>
+            <Col id="sec01img">sta_cm_doc06</Col>
+            <Col id="sec03img">sta_cm_doc06</Col>
+            <Col id="sec02img">sta_cm_doc06</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1455</Col>
+            <Col id="etime">1525</Col>
+            <Col id="sec01">Dr. SAM E</Col>
+            <Col id="sec02">Dr. SAM A</Col>
+            <Col id="sec03">Dr. SAM A</Col>
+            <Col id="sec01img">sta_cm_doc08</Col>
+            <Col id="sec03img">sta_cm_doc08</Col>
+            <Col id="sec02img">sta_cm_doc08</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1525</Col>
+            <Col id="etime">1555</Col>
+            <Col id="sec01">Dr. SAM F</Col>
+            <Col id="sec02">Dr. SAM A</Col>
+            <Col id="sec03">Dr. SAM A</Col>
+            <Col id="sec01img">sta_cm_doc11</Col>
+            <Col id="sec02img">sta_cm_doc11</Col>
+            <Col id="sec03img">sta_cm_doc11</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1555</Col>
+            <Col id="etime">1625</Col>
+            <Col id="sec01">Break Time</Col>
+            <Col id="sec02">Break Time</Col>
+            <Col id="sec03">Break Time</Col>
+            <Col id="mm">30</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1625</Col>
+            <Col id="etime">1700</Col>
+            <Col id="sec01">Dr. SAM G</Col>
+            <Col id="sec02">Dr. SAM A</Col>
+            <Col id="sec03">Dr. SAM A</Col>
+            <Col id="sec01img">sta_cm_doc02</Col>
+            <Col id="sec02img">sta_cm_doc10</Col>
+            <Col id="sec03img">sta_cm_doc12</Col>
+            <Col id="mm">35</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1700</Col>
+            <Col id="etime">1735</Col>
+            <Col id="sec01">Dr. SAM H</Col>
+            <Col id="sec02">Dr. SAM A</Col>
+            <Col id="sec03">Dr. SAM A</Col>
+            <Col id="sec01img">sta_cm_doc05</Col>
+            <Col id="sec02img">sta_cm_doc03</Col>
+            <Col id="mm">35</Col>
+            <Col id="sec03img">sta_cm_doc09</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1735</Col>
+            <Col id="etime">1810</Col>
+            <Col id="sec03">Dr. SAM A</Col>
+            <Col id="sec01">Waiting</Col>
+            <Col id="sec02">대기중</Col>
+            <Col id="mm">35</Col>
+            <Col id="sec03img">sta_cm_doc02</Col>
+          </Row>
+          <Row>
+            <Col id="stime">1800</Col>
+            <Col id="etime">1830</Col>
+            <Col id="sec01">Close</Col>
+            <Col id="sec02">Close</Col>
+            <Col id="sec03">Close</Col>
+            <Col id="mm">30</Col>
+          </Row>
+        </Rows>
+      </Dataset>
+    </Objects>
+  </Form>
+</FDL>
